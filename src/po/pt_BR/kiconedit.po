@@ -1,0 +1,949 @@
+# tradução do kiconedit.po para Brazilian Portuguese
+# Lisiane Sztoltz <lisiane@conectiva.com.br>, 2002,2003.
+# João Emanuel <jesgnulinux@terra.com.br>, 2003.
+# Joao Emanuel <jesgnulinux@terra.com.br>, 2003.
+# Lisiane Sztoltz Teixeira <lisiane@conectiva.com.br>, 2004.
+# Lisiane Sztoltz Teixeira <lisiane@kdemail.net>, 2004.
+# André Marcelo Alvarenga <andrealvarenga@gmx.net>, 2008, 2009.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kiconedit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-11 12:58+0200\n"
+"PO-Revision-Date: 2009-02-23 00:58-0300\n"
+"Last-Translator: André Marcelo Alvarenga <andrealvarenga@gmx.net>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_br@mail.kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: kiconconfig.cpp:66
+msgid "Icon Template"
+msgstr "Modelos de ícone"
+
+#: kiconconfig.cpp:72
+msgid "Template"
+msgstr "Modelo"
+
+#: kiconconfig.cpp:82
+msgid "Description:"
+msgstr "Descrição:"
+
+#: kiconconfig.cpp:87
+msgid "Path:"
+msgstr "Caminho:"
+
+#: kiconconfig.cpp:133 knew.cpp:203
+msgid "Templates"
+msgstr "Modelos"
+
+#: kiconconfig.cpp:155
+msgid "&Add..."
+msgstr "&Adicionar..."
+
+#: kiconconfig.cpp:158
+msgid "&Edit..."
+msgstr "&Editar..."
+
+#: kiconconfig.cpp:162
+msgid "&Remove"
+msgstr "&Remover"
+
+#: kiconconfig.cpp:259
+msgid "Select Background"
+msgstr "Selecionar fundo"
+
+#: kiconconfig.cpp:280
+msgid "Use co&lor"
+msgstr "Usar &cor"
+
+#: kiconconfig.cpp:284
+msgid "Use pix&map"
+msgstr "Usar &mapa de pixels"
+
+#: kiconconfig.cpp:297
+msgid "Choose..."
+msgstr "Escolher..."
+
+#: kiconconfig.cpp:300
+msgid "Preview"
+msgstr "Visualização"
+
+#: kiconconfig.cpp:381
+msgid "Only local files are supported yet."
+msgstr "Somente arquivos locais são suportados."
+
+#: kiconconfig.cpp:403
+msgid "Paste &transparent pixels"
+msgstr "Colar pixels &transparentes"
+
+#: kiconconfig.cpp:407
+msgid "Show &rulers"
+msgstr "Mostrar &réguas"
+
+#: kiconconfig.cpp:411
+msgid "Transparency Display"
+msgstr "Mostrar transparência"
+
+#: kiconconfig.cpp:424
+msgid "&Solid color:"
+msgstr "&Cor sólida:"
+
+#: kiconconfig.cpp:434
+msgid "Checker&board"
+msgstr "Tabuleiro de &damas"
+
+#: kiconconfig.cpp:445
+msgid "Small"
+msgstr "Pequeno"
+
+#: kiconconfig.cpp:446
+msgid "Medium"
+msgstr "Médio"
+
+#: kiconconfig.cpp:447
+msgid "Large"
+msgstr "Grande"
+
+#: kiconconfig.cpp:450
+msgid "Si&ze:"
+msgstr "&Tamanho:"
+
+#: kiconconfig.cpp:456
+msgid "Color &1:"
+msgstr "Cor &1:"
+
+#: kiconconfig.cpp:462
+msgid "Color &2:"
+msgstr "Cor &2:"
+
+#: kiconconfig.cpp:557
+msgid "Configure"
+msgstr "Configurar"
+
+#: kiconconfig.cpp:563
+msgid "Icon Templates"
+msgstr "Modelos de ícone"
+
+#: kiconconfig.cpp:569
+msgid "Background"
+msgstr "Plano de fundo"
+
+#: kiconconfig.cpp:575
+msgid "Icon Grid"
+msgstr "Grade de ícones"
+
+#: kiconedit.cpp:143 kiconeditslots.cpp:131
+msgid "Untitled"
+msgstr "Sem título"
+
+#: kiconedit.cpp:177 kiconeditslots.cpp:89 kiconeditslots.cpp:144
+#: kiconeditslots.cpp:288
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"O arquivo atual foi modificado.\n"
+"Deseja salvá-lo?"
+
+#: kiconedit.cpp:253
+msgid "New &Window"
+msgstr "&Nova janela"
+
+#: kiconedit.cpp:256
+msgid ""
+"New window\n"
+"\n"
+"Opens a new icon editor window."
+msgstr ""
+"Nova janela\n"
+"\n"
+"Abre uma nova janela do editor de ícones."
+
+#: kiconedit.cpp:259
+msgid ""
+"New\n"
+"\n"
+"Create a new icon, either from a template or by specifying the size"
+msgstr ""
+"Novo\n"
+"\n"
+"Cria um novo ícone a partir de um modelo ou especificando o tamanho"
+
+#: kiconedit.cpp:263
+msgid ""
+"Open\n"
+"\n"
+"Open an existing icon"
+msgstr ""
+"Abrir\n"
+"\n"
+"Abre um ícone existente"
+
+#: kiconedit.cpp:271
+msgid ""
+"Save\n"
+"\n"
+"Save the current icon"
+msgstr ""
+"Salvar\n"
+"\n"
+"Salva o ícone atual"
+
+#: kiconedit.cpp:276
+msgid ""
+"Print\n"
+"\n"
+"Opens a print dialog to let you print the current icon."
+msgstr ""
+"Imprimir\n"
+"\n"
+"Abre uma janela de impressão que permite-lhe imprimir o ícone atual."
+
+#: kiconedit.cpp:284
+msgid ""
+"Cut\n"
+"\n"
+"Cut the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"Recortar\n"
+"\n"
+"Recorta a seleção atual fora do ícone.\n"
+"\n"
+"(Dica: Você pode fazer as seleções retangulares e circulares)"
+
+#: kiconedit.cpp:288
+msgid ""
+"Copy\n"
+"\n"
+"Copy the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"Copiar\n"
+"\n"
+"Copia a seleção atual fora do ícone.\n"
+"\n"
+"(Dica: Você pode fazer as seleções retangulares e circulares)"
+
+#: kiconedit.cpp:292
+msgid ""
+"Paste\n"
+"\n"
+"Paste the contents of the clipboard into the current icon.\n"
+"\n"
+"If the contents are larger than the current icon you can paste them in a new "
+"window.\n"
+"\n"
+"(Tip: Select \"Paste transparent pixels\" in the configuration dialog if you "
+"also want to paste transparency.)"
+msgstr ""
+"Colar\n"
+"\n"
+"Colar o conteúdo da área de transferência para o ícone atual.\n"
+"\n"
+"Se o conteúdo é maior que o ícone atual você pode colá-lo em uma nova "
+"janela.\n"
+"\n"
+"(Dica: Selecione \"Colar pixels transparentes\" na janela de configuração se "
+"você também quer colar transparente.)"
+
+#: kiconedit.cpp:300
+msgid "Paste as &New"
+msgstr "Colar como &novo"
+
+#: kiconedit.cpp:309
+msgid "Resi&ze..."
+msgstr "&Redimensionar..."
+
+#: kiconedit.cpp:312
+msgid ""
+"Resize\n"
+"\n"
+"Smoothly resizes the icon while trying to preserve the contents"
+msgstr ""
+"Redimensionar\n"
+"\n"
+"Redimensiona suavemente o ícone tentando preservar o conteúdo"
+
+#: kiconedit.cpp:317
+msgid "&GrayScale"
+msgstr "&Escala de cinza"
+
+#: kiconedit.cpp:320
+msgid ""
+"Gray scale\n"
+"\n"
+"Gray scale the current icon.\n"
+"(Warning: The result is likely to contain colors not in the icon palette"
+msgstr ""
+"Escala de cinza\n"
+"\n"
+"Refazer o ícone atual em escala de cinza.\n"
+"(Aviso: O resultado terá cores não pertencentes à paleta de ícones)"
+
+#: kiconedit.cpp:327
+msgid ""
+"Zoom in\n"
+"\n"
+"Zoom in by one."
+msgstr ""
+"Ampliar\n"
+"\n"
+"Ampliar em um."
+
+#: kiconedit.cpp:331
+msgid ""
+"Zoom out\n"
+"\n"
+"Zoom out by one."
+msgstr ""
+"Reduzir\n"
+"\n"
+"Reduzir em um."
+
+#: kiconedit.cpp:335
+msgid "&Zoom"
+msgstr "&Zoom"
+
+#: kiconedit.cpp:339
+msgid "100%"
+msgstr "100%"
+
+#: kiconedit.cpp:345
+msgid "200%"
+msgstr "200%"
+
+#: kiconedit.cpp:351
+msgid "500%"
+msgstr "500%"
+
+#: kiconedit.cpp:357
+msgid "1000%"
+msgstr "1000%"
+
+#: kiconedit.cpp:377
+msgid "Show &Grid"
+msgstr "Mostrar &grade"
+
+#: kiconedit.cpp:380
+msgid "Hide &Grid"
+msgstr "Ocultar &grade"
+
+#: kiconedit.cpp:381
+msgid ""
+"Show grid\n"
+"\n"
+"Toggles the grid in the icon edit grid on/off"
+msgstr ""
+"Exibir grade\n"
+"\n"
+"Alterna a grade de edição de ícones para ligado/desligado"
+
+#: kiconedit.cpp:388
+msgid "Color Picker"
+msgstr "Seletor de cores"
+
+#: kiconedit.cpp:392
+msgid ""
+"Color Picker\n"
+"\n"
+"The color of the pixel clicked on will be the current draw color"
+msgstr ""
+"Seletor de cores\n"
+"\n"
+"A cor do pixel clicado passará a ser a cor atual do desenho"
+
+#: kiconedit.cpp:397
+msgid "Freehand"
+msgstr "À mão livre"
+
+#: kiconedit.cpp:401
+msgid ""
+"Free hand\n"
+"\n"
+"Draw non-linear lines"
+msgstr ""
+"À mão livre\n"
+"\n"
+"Desenhar linhas não-lineares"
+
+#: kiconedit.cpp:408
+msgid "Rectangle"
+msgstr "Retângulo"
+
+#: kiconedit.cpp:412
+msgid ""
+"Rectangle\n"
+"\n"
+"Draw a rectangle"
+msgstr ""
+"Retângulo\n"
+"\n"
+"Desenha um retângulo"
+
+#: kiconedit.cpp:416
+msgid "Filled Rectangle"
+msgstr "Retângulo preenchido"
+
+#: kiconedit.cpp:420
+msgid ""
+"Filled rectangle\n"
+"\n"
+"Draw a filled rectangle"
+msgstr ""
+"Retângulo preenchido\n"
+"\n"
+"Desenha um retângulo preenchido"
+
+#: kiconedit.cpp:424
+msgid "Circle"
+msgstr "Círculo"
+
+#: kiconedit.cpp:428
+msgid ""
+"Circle\n"
+"\n"
+"Draw a circle"
+msgstr ""
+"Círculo\n"
+"\n"
+"Desenha um círculo"
+
+#: kiconedit.cpp:432
+msgid "Filled Circle"
+msgstr "Círculo preenchido"
+
+#: kiconedit.cpp:436
+msgid ""
+"Filled circle\n"
+"\n"
+"Draw a filled circle"
+msgstr ""
+"Círculo preenchido\n"
+"\n"
+"Desenha um círculo preenchido"
+
+#: kiconedit.cpp:440
+msgid "Ellipse"
+msgstr "Elipse"
+
+#: kiconedit.cpp:444
+msgid ""
+"Ellipse\n"
+"\n"
+"Draw an ellipse"
+msgstr ""
+"Elipse\n"
+"\n"
+"Desenha uma elipse"
+
+#: kiconedit.cpp:448
+msgid "Filled Ellipse"
+msgstr "Elipse preenchida"
+
+#: kiconedit.cpp:452
+msgid ""
+"Filled ellipse\n"
+"\n"
+"Draw a filled ellipse"
+msgstr ""
+"Elipse preenchida\n"
+"\n"
+"Desenha uma elipse preenchida"
+
+#: kiconedit.cpp:456
+msgid "Spray"
+msgstr "Spray"
+
+#: kiconedit.cpp:460
+msgid ""
+"Spray\n"
+"\n"
+"Draw scattered pixels in the current color"
+msgstr ""
+"Spray\n"
+"\n"
+"Desenha pixels espalhados na cor atual"
+
+#: kiconedit.cpp:465
+msgid "Flood Fill"
+msgstr "Preenchimento"
+
+#: kiconedit.cpp:469
+msgid ""
+"Flood fill\n"
+"\n"
+"Fill adjoining pixels with the same color with the current color"
+msgstr ""
+"Preenchimento\n"
+"\n"
+"Preenche com pixels da mesma cor que a atual"
+
+#: kiconedit.cpp:474
+msgid "Line"
+msgstr "Linha"
+
+#: kiconedit.cpp:478
+msgid ""
+"Line\n"
+"\n"
+"Draw a straight line vertically, horizontally or at 45 deg. angles"
+msgstr ""
+"Linha\n"
+"\n"
+"Desenha uma linha reta vertical, horizontal ou com ângulos de 45 graus"
+
+#: kiconedit.cpp:483
+msgid "Eraser (Transparent)"
+msgstr "Borracha (Transparente)"
+
+#: kiconedit.cpp:487
+msgid ""
+"Erase\n"
+"\n"
+"Erase pixels. Set the pixels to be transparent\n"
+"\n"
+"(Tip: If you want to draw transparency with a different tool, first click on "
+"\"Erase\" then on the tool you want to use)"
+msgstr ""
+"Apagar\n"
+"\n"
+"Apaga pixels. Configura os pixels para serem transparentes\n"
+"\n"
+"(Dica: Se você quer desenhar transparente com uma ferramenta diferente, "
+"primeiro clique em \"Apagar\" e então na ferramenta que você quer usar)"
+
+#: kiconedit.cpp:494
+msgid "Rectangular Selection"
+msgstr "Seleção retangular"
+
+#: kiconedit.cpp:498
+msgid ""
+"Select\n"
+"\n"
+"Select a rectangular section of the icon using the mouse."
+msgstr ""
+"Seleção\n"
+"\n"
+"Seleciona uma seção retangular do ícone utilizando o mouse."
+
+#: kiconedit.cpp:503
+msgid "Circular Selection"
+msgstr "Seleção circular"
+
+#: kiconedit.cpp:507
+msgid ""
+"Select\n"
+"\n"
+"Select a circular section of the icon using the mouse."
+msgstr ""
+"Seleção\n"
+"\n"
+"Seleciona uma seção circular do ícone utilizando o mouse."
+
+#: kiconedit.cpp:535
+msgid ""
+"Statusbar\n"
+"\n"
+"The statusbar gives information on the status of the current icon. The "
+"fields are:\n"
+"\n"
+"\t- Application messages\n"
+"\t- Cursor position\n"
+"\t- Size\n"
+"\t- Zoom factor\n"
+"\t- Number of colors"
+msgstr ""
+"Barra de status\n"
+"\n"
+"A barra de status fornece informação sobre o status do ícone atual. Os "
+"campos são:\n"
+"\n"
+"\t- Mensagens do aplicativo\n"
+"\t- Posição do cursor\n"
+"\t- Tamanho\n"
+"\t- Fator de zoom\n"
+"\t- Número de cores"
+
+#: kiconedit.cpp:544 kiconeditslots.cpp:451 kiconeditslots.cpp:457
+#, kde-format
+msgid "Colors: %1"
+msgstr "Cores: %1"
+
+#: kiconediticon.cpp:71
+#, kde-format
+msgid ""
+"The URL: %1 \n"
+"seems to be malformed.\n"
+msgstr ""
+"O URL %1\n"
+"parece ser inválido.\n"
+
+#: kiconediticon.cpp:87 kiconediticon.cpp:102
+#, kde-format
+msgid ""
+"There was an error loading:\n"
+"%1\n"
+msgstr ""
+"Ocorreu um erro ao carregar:\n"
+"%1\n"
+
+#: kiconediticon.cpp:176
+msgid "Save Icon As"
+msgstr "Salvar ícone como"
+
+#: kiconediticon.cpp:211
+#, kde-format
+msgid "A file named \"%1\" already exists. Overwrite it?"
+msgstr "Já existe um arquivo chamado \"%1\". Sobrescrevê-lo?"
+
+#: kiconediticon.cpp:213
+msgid "Overwrite File?"
+msgstr "Sobrescrever arquivo?"
+
+#: kiconediticon.cpp:214
+msgid "&Overwrite"
+msgstr "&Sobrescrever"
+
+#: kiconediticon.cpp:277
+#, kde-format
+msgid ""
+"There was an error saving:\n"
+"%1\n"
+msgstr ""
+"Aconteceu um erro salvando:\n"
+"%1\n"
+
+#: kiconeditslots.cpp:204
+#, kde-format
+msgid "Print %1"
+msgstr "Imprimir %1"
+
+#: kiconeditslots.cpp:430
+#, kde-format
+msgctxt "Status Position"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: kiconeditslots.cpp:436
+#, kde-format
+msgctxt "Status Size"
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: kiconeditslots.cpp:476
+msgid "modified"
+msgstr "modificado"
+
+#: kicongrid.cpp:100
+msgid ""
+"Icon draw grid\n"
+"\n"
+"The icon grid is the area where you draw the icons.\n"
+"You can zoom in and out using the magnifying glasses on the toolbar.\n"
+"(Tip: Hold the magnify button down for a few seconds to zoom to a predefined "
+"scale)"
+msgstr ""
+"Grade de desenho de ícones\n"
+"\n"
+"A grade do ícone é a área onde você desenha os ícones.\n"
+"Você pode ampliar e reduzir usando as lupas da barra de ferramentas.\n"
+"(Dica: Mantenha a lupa pressionada por alguns segundos para ampliar ou "
+"reduzir à uma escala predefinida)"
+
+#: kicongrid.cpp:128
+msgid "width"
+msgstr "largura"
+
+#: kicongrid.cpp:133
+msgid "height"
+msgstr "altura"
+
+#: kicongrid.cpp:137
+msgid ""
+"Rulers\n"
+"\n"
+"This is a visual representation of the current cursor position"
+msgstr ""
+"Réguas\n"
+"\n"
+"É uma representação visual da posição atual do cursor"
+
+#: kicongrid.cpp:831
+msgid "Free Hand"
+msgstr "À mão livre"
+
+#: kicongrid.cpp:1035
+msgid "There was an error loading a blank image.\n"
+msgstr "Aconteceu um erro ao carregar uma imagem em branco.\n"
+
+#: kicongrid.cpp:1167
+msgid "All selected"
+msgstr "Todos selecionados"
+
+#: kicongrid.cpp:1178
+msgid "Cleared"
+msgstr "Limpo"
+
+#: kicongrid.cpp:1219
+msgid "Selected area cut"
+msgstr "Área selecionada recortada"
+
+#: kicongrid.cpp:1223
+msgid "Selected area copied"
+msgstr "Área selecionada copiada"
+
+#: kicongrid.cpp:1248
+msgid ""
+"The clipboard image is larger than the current image!\n"
+"Paste as new image?"
+msgstr ""
+"A imagem na área de transferência é maior que a imagem atual!\n"
+"Colar como nova imagem?"
+
+#: kicongrid.cpp:1249
+msgid "Paste"
+msgstr "Colar"
+
+#: kicongrid.cpp:1249
+msgid "Do Not Paste"
+msgstr "Não colar"
+
+#: kicongrid.cpp:1368 kicongrid.cpp:1402
+msgid "Done pasting"
+msgstr "Colagem feita"
+
+#: kicongrid.cpp:1373 kicongrid.cpp:1408
+msgid "Invalid pixmap data in clipboard.\n"
+msgstr "Dados do mapa de pixels inválidos na área de transferência.\n"
+
+#: kicongrid.cpp:1915
+msgid "Drawn Array"
+msgstr "Matriz desenhada"
+
+#: knew.cpp:49
+msgid "Standard File"
+msgstr "Arquivo padrão"
+
+#: knew.cpp:53
+msgid "Source File"
+msgstr "Arquivo fonte"
+
+#: knew.cpp:57
+msgid "Compressed File"
+msgstr "Arquivo comprimido"
+
+#: knew.cpp:61
+msgid "Standard Folder"
+msgstr "Pasta padrão"
+
+#: knew.cpp:65
+msgid "Standard Package"
+msgstr "Pacote padrão"
+
+#: knew.cpp:69
+msgid "Mini Folder"
+msgstr "Mini-pasta"
+
+#: knew.cpp:73
+msgid "Mini Package"
+msgstr "Mini-pacote"
+
+#: knew.cpp:172
+msgid "Create from scratch"
+msgstr "Criar do zero"
+
+#: knew.cpp:176
+msgid "Create from template"
+msgstr "Criar de um modelo"
+
+#: knew.cpp:235
+msgid "Create New Icon"
+msgstr "Criar novo ícone"
+
+#: knew.cpp:256
+msgid "Select Icon Type"
+msgstr "Selecionar tipo de ícone"
+
+#: knew.cpp:257 knew.cpp:298
+msgid "Create From Scratch"
+msgstr "Criar do zero"
+
+#: knew.cpp:304
+msgid "Create From Template"
+msgstr "Criar de um modelo"
+
+#: kresize.cpp:35
+msgid "Size"
+msgstr "Tamanho"
+
+#: kresize.cpp:70
+msgid "Select Size"
+msgstr "Selecionar tamanho"
+
+#: main.cpp:35
+msgid "KDE Icon Editor"
+msgstr "Editor de ícones do KDE"
+
+#: main.cpp:39
+msgid "KIconEdit"
+msgstr "KIconEdit"
+
+#: main.cpp:41
+msgid "(c) 1998, Thomas Tanghus"
+msgstr "(c) 1998, Thomas Tanghus"
+
+#: main.cpp:43
+msgid "Thomas Tanghus"
+msgstr "Thomas Tanghus"
+
+#: main.cpp:44
+msgid "John Califf"
+msgstr "John Califf"
+
+#: main.cpp:45
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:46
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:47
+msgid "Nadeem Hasan"
+msgstr "Nadeem Hasan"
+
+#: main.cpp:47
+msgid ""
+"Rewrote UI to use XMLGUI\n"
+"Lots of fixes and cleanup"
+msgstr ""
+"Reescreveu a Interface do Usuário para usar XMLGUI\n"
+"Muitas correções e melhorias"
+
+#: main.cpp:49
+msgid "Adrian Page"
+msgstr "Adrian Page"
+
+#: main.cpp:49
+msgid "Bug fixes and GUI tidy up"
+msgstr "Correções de erros e organização da Interface Gráfica do Usuário"
+
+#: main.cpp:54
+msgid "Icon file(s) to open"
+msgstr "Arquivo(s) de ícone para abrir"
+
+#: palettetoolbar.cpp:53
+msgid ""
+"Preview\n"
+"\n"
+"This is a 1:1 preview of the current icon"
+msgstr ""
+"Visualização\n"
+"\n"
+"Esta é uma visualização 1:1 do ícone atual"
+
+#: palettetoolbar.cpp:61
+msgid ""
+"Current color\n"
+"\n"
+"This is the currently selected color"
+msgstr ""
+"Cor atual\n"
+"\n"
+"Esta é a cor atualmente selecionada"
+
+#: palettetoolbar.cpp:66
+msgid "System colors:"
+msgstr "Cores do sistema:"
+
+#: palettetoolbar.cpp:69
+msgid ""
+"System colors\n"
+"\n"
+"Here you can select colors from the KDE icon palette"
+msgstr ""
+"Cores do sistema\n"
+"\n"
+"Aqui você pode selecionar cores da paleta de ícones do KDE"
+
+#: palettetoolbar.cpp:79
+msgid "Custom colors:"
+msgstr "Cores personalizadas:"
+
+#: palettetoolbar.cpp:82
+msgid ""
+"Custom colors\n"
+"\n"
+"Here you can build a palette of custom colors.\n"
+"Double-click on a box to edit the color"
+msgstr ""
+"Cores personalizadas\n"
+"\n"
+"Aqui você pode construir uma paleta de cores personalizadas.\n"
+"Clique duas vezes em uma caixa para editar a cor"
+
+#. i18n: file: kiconeditui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+msgid "&File"
+msgstr "&Arquivo"
+
+#. i18n: file: kiconeditui.rc:7
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6
+msgid "&Edit"
+msgstr "&Editar"
+
+#. i18n: file: kiconeditui.rc:13
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:9
+msgid "&Tools"
+msgstr "&Ferramentas"
+
+#. i18n: file: kiconeditui.rc:30
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:12
+msgid "&Settings"
+msgstr "&Configurações"
+
+#. i18n: file: kiconeditui.rc:35
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:15
+msgid "Main Toolbar"
+msgstr "Barra de ferramentas principal"
+
+#. i18n: file: kiconeditui.rc:45
+#. i18n: ectx: ToolBar (toolsToolBar)
+#: rc.cpp:18
+msgid "Tools Toolbar"
+msgstr "Barra de ferramentas de configurações"
+
+#. i18n: file: kiconeditui.rc:63
+#. i18n: ectx: ToolBar (paletteToolBar)
+#: rc.cpp:21
+msgid "Pallette Toolbar"
+msgstr "Barra de ferramentas da paleta"
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Elvis Pfützenreuter, Rodrigo Stulzer, João Emanuel,André Marcelo Alvarenga"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"epx@conectiva.com.br, rodrigo@conectiva.com.br, jesgnulinux@terra.com.br,"
+"andrealvarenga@gmx.net"
+
+#: kicongrid.h:62
+msgid "Drawed Something"
+msgstr "Alguma coisa foi desenhada"

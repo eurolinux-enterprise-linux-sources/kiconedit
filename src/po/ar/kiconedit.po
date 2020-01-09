@@ -1,0 +1,964 @@
+# translation of kiconedit.po to
+# Copyright (C) 2002, 2004, 2006, 2007 Free Software Foundation, Inc.
+#
+# Yaqoob Al Jasmi <yaqoob_aljasmi@whoever.com>, 2002.
+# Usamah Ali Al-Maqdad <msareehi@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kiconedit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-11 12:58+0200\n"
+"PO-Revision-Date: 2007-10-14 15:24+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: kiconconfig.cpp:66
+msgid "Icon Template"
+msgstr "قوالب الأيقونة"
+
+#: kiconconfig.cpp:72
+msgid "Template"
+msgstr "قالب"
+
+#: kiconconfig.cpp:82
+msgid "Description:"
+msgstr "وصف:"
+
+#: kiconconfig.cpp:87
+msgid "Path:"
+msgstr "مسار:"
+
+#: kiconconfig.cpp:133 knew.cpp:203
+msgid "Templates"
+msgstr "قوالب"
+
+#: kiconconfig.cpp:155
+msgid "&Add..."
+msgstr "إ&ضافة..."
+
+#: kiconconfig.cpp:158
+msgid "&Edit..."
+msgstr "تحرير..."
+
+#: kiconconfig.cpp:162
+#, fuzzy
+msgid "&Remove"
+msgstr "أ&زل"
+
+#: kiconconfig.cpp:259
+msgid "Select Background"
+msgstr "اختيار الخلفية"
+
+#: kiconconfig.cpp:280
+msgid "Use co&lor"
+msgstr "استخدام ا&لالوان"
+
+#: kiconconfig.cpp:284
+msgid "Use pix&map"
+msgstr "إستعمل &خريطة البكسلات"
+
+#: kiconconfig.cpp:297
+msgid "Choose..."
+msgstr "إختر..."
+
+#: kiconconfig.cpp:300
+msgid "Preview"
+msgstr "معاينة"
+
+#: kiconconfig.cpp:381
+msgid "Only local files are supported yet."
+msgstr "فقط الملفات المحلية مدعومة حالياً."
+
+#: kiconconfig.cpp:403
+msgid "Paste &transparent pixels"
+msgstr "لصق البكسلات ال&شفافة"
+
+#: kiconconfig.cpp:407
+msgid "Show &rulers"
+msgstr "أظهر المس&طرة"
+
+#: kiconconfig.cpp:411
+msgid "Transparency Display"
+msgstr "عرض الشفافية"
+
+#: kiconconfig.cpp:424
+msgid "&Solid color:"
+msgstr "اللون ال&صلب:"
+
+#: kiconconfig.cpp:434
+msgid "Checker&board"
+msgstr "لوحة الش&طرنج"
+
+#: kiconconfig.cpp:445
+msgid "Small"
+msgstr "صغير"
+
+#: kiconconfig.cpp:446
+msgid "Medium"
+msgstr "متوسط"
+
+#: kiconconfig.cpp:447
+msgid "Large"
+msgstr "كبير"
+
+#: kiconconfig.cpp:450
+msgid "Si&ze:"
+msgstr "ال&قياس:"
+
+#: kiconconfig.cpp:456
+msgid "Color &1:"
+msgstr "اللون &1:"
+
+#: kiconconfig.cpp:462
+msgid "Color &2:"
+msgstr "أللون &2:"
+
+#: kiconconfig.cpp:557
+#, fuzzy
+msgid "Configure"
+msgstr "اضبط"
+
+#: kiconconfig.cpp:563
+msgid "Icon Templates"
+msgstr "قوالب الأيقونة"
+
+#: kiconconfig.cpp:569
+msgid "Background"
+msgstr "الخلفية"
+
+#: kiconconfig.cpp:575
+msgid "Icon Grid"
+msgstr "شبيكة الأيقونة"
+
+#: kiconedit.cpp:143 kiconeditslots.cpp:131
+#, fuzzy
+msgid "Untitled"
+msgstr "بدون عنوان"
+
+#: kiconedit.cpp:177 kiconeditslots.cpp:89 kiconeditslots.cpp:144
+#: kiconeditslots.cpp:288
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"حصل تغيير في الملف الحالي.\n"
+"هل تريد حفظه ؟"
+
+#: kiconedit.cpp:253
+msgid "New &Window"
+msgstr "&نافذة جديدة"
+
+#: kiconedit.cpp:256
+msgid ""
+"New window\n"
+"\n"
+"Opens a new icon editor window."
+msgstr ""
+"نافذة جديدة\n"
+"\n"
+"يفتح نافذة تحرير أيقونة جديدة."
+
+#: kiconedit.cpp:259
+msgid ""
+"New\n"
+"\n"
+"Create a new icon, either from a template or by specifying the size"
+msgstr ""
+"جديد\n"
+"\n"
+"ينشئ أيقونة جديدة ، إما من قالب جاهز أو بواسطة تحديد القياس"
+
+#: kiconedit.cpp:263
+msgid ""
+"Open\n"
+"\n"
+"Open an existing icon"
+msgstr ""
+"فتح\n"
+"\n"
+"يفتح أيقونة موجودة"
+
+#: kiconedit.cpp:271
+msgid ""
+"Save\n"
+"\n"
+"Save the current icon"
+msgstr ""
+"حفظ\n"
+"\n"
+"يحفظ الأيقونة الحالية"
+
+#: kiconedit.cpp:276
+msgid ""
+"Print\n"
+"\n"
+"Opens a print dialog to let you print the current icon."
+msgstr ""
+"طباعة\n"
+"\n"
+"يفتح حوار طباعة لكي تتمكن من طباعة الأيقونة الحالية."
+
+#: kiconedit.cpp:284
+msgid ""
+"Cut\n"
+"\n"
+"Cut the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"قص\n"
+"\n"
+"قص المنطقة المحددة الحالية من الأيقونة.\n"
+"( تليمحة: يمكنك إنشاء منطقة تحديد من الأيقونة على شكل مستطيل أو دائرة )"
+
+#: kiconedit.cpp:288
+msgid ""
+"Copy\n"
+"\n"
+"Copy the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"نسخ\n"
+"\n"
+"نسخ المنطقة المحددة الحالية من الأيقونة.\n"
+"(تليمحة: يمكنك إنشاء تحديد أي جزء من الأيقونة على شكل مستطيل أو دائرة)"
+
+#: kiconedit.cpp:292
+msgid ""
+"Paste\n"
+"\n"
+"Paste the contents of the clipboard into the current icon.\n"
+"\n"
+"If the contents are larger than the current icon you can paste them in a new "
+"window.\n"
+"\n"
+"(Tip: Select \"Paste transparent pixels\" in the configuration dialog if you "
+"also want to paste transparency.)"
+msgstr ""
+"لصق\n"
+"\n"
+"لصق محتويات الحافظة إلى الأيقونة الحالية.\n"
+"\n"
+"إذا كانت المحتويات أكبر من الأيقونة الحالية ، يمكنك لصقها في نافذة جديدة.\n"
+"\n"
+"( تلميحة: إختر \"لصق البكسلات الشفافة\" في حوار الإعداد إذا أردت لصق "
+"الشفافية. )"
+
+#: kiconedit.cpp:300
+msgid "Paste as &New"
+msgstr "ألصق ك&جديد"
+
+#: kiconedit.cpp:309
+msgid "Resi&ze..."
+msgstr "غيير ال&قياس..."
+
+#: kiconedit.cpp:312
+msgid ""
+"Resize\n"
+"\n"
+"Smoothly resizes the icon while trying to preserve the contents"
+msgstr ""
+"تغيير القياس\n"
+"\n"
+"غيير قياس الأيقونة بطريقة ناعمة حيث تحافظ على المحتويات"
+
+#: kiconedit.cpp:317
+msgid "&GrayScale"
+msgstr "رما&دي متدرج"
+
+#: kiconedit.cpp:320
+msgid ""
+"Gray scale\n"
+"\n"
+"Gray scale the current icon.\n"
+"(Warning: The result is likely to contain colors not in the icon palette"
+msgstr ""
+"رمادي متدرج\n"
+"\n"
+"حوّل ألوان الأيقونة الحالية إلى رمادي متدرج.\n"
+"( تحذير: من الممكن أن تحتوي الأيقونة على ألوان غير موجودة في لوحة مزج "
+"الألوان)"
+
+#: kiconedit.cpp:327
+msgid ""
+"Zoom in\n"
+"\n"
+"Zoom in by one."
+msgstr ""
+"كبّر\n"
+"\n"
+"كبّر بدرجة واحدة."
+
+#: kiconedit.cpp:331
+msgid ""
+"Zoom out\n"
+"\n"
+"Zoom out by one."
+msgstr ""
+"صغّر\n"
+"\n"
+"صغّر بدرجة واحدة."
+
+#: kiconedit.cpp:335
+#, fuzzy
+msgid "&Zoom"
+msgstr "&تكبير"
+
+#: kiconedit.cpp:339
+msgid "100%"
+msgstr "100%"
+
+#: kiconedit.cpp:345
+msgid "200%"
+msgstr "200%"
+
+#: kiconedit.cpp:351
+msgid "500%"
+msgstr "500%"
+
+#: kiconedit.cpp:357
+msgid "1000%"
+msgstr "1000%"
+
+#: kiconedit.cpp:377
+msgid "Show &Grid"
+msgstr "أظهر ال&شبيكة"
+
+#: kiconedit.cpp:380
+msgid "Hide &Grid"
+msgstr "أخف ال&شبيكة"
+
+#: kiconedit.cpp:381
+msgid ""
+"Show grid\n"
+"\n"
+"Toggles the grid in the icon edit grid on/off"
+msgstr ""
+"أظهر الشبيكة\n"
+"\n"
+"يقلب حالة الإظهار/الإخفاء للشبيكة في شبيكة تحرير الأيقونة"
+
+#: kiconedit.cpp:388
+msgid "Color Picker"
+msgstr "منتقي اللون"
+
+#: kiconedit.cpp:392
+msgid ""
+"Color Picker\n"
+"\n"
+"The color of the pixel clicked on will be the current draw color"
+msgstr ""
+"منتقي اللون\n"
+"\n"
+"سيكون لون البكسل المنقور عليه هو لون الرسم الحالى"
+
+#: kiconedit.cpp:397
+msgid "Freehand"
+msgstr "رسم يدوي"
+
+#: kiconedit.cpp:401
+msgid ""
+"Free hand\n"
+"\n"
+"Draw non-linear lines"
+msgstr ""
+"رسم يدوي\n"
+"\n"
+"أرسم خطوط غير مستقيمة"
+
+#: kiconedit.cpp:408
+msgid "Rectangle"
+msgstr "مستطيل"
+
+#: kiconedit.cpp:412
+msgid ""
+"Rectangle\n"
+"\n"
+"Draw a rectangle"
+msgstr ""
+"مستطيل\n"
+"\n"
+"أرسم مستطيل"
+
+#: kiconedit.cpp:416
+msgid "Filled Rectangle"
+msgstr "مستطيل ممتلئ"
+
+#: kiconedit.cpp:420
+msgid ""
+"Filled rectangle\n"
+"\n"
+"Draw a filled rectangle"
+msgstr ""
+"مستطيل ممتلئ\n"
+"\n"
+"أرسم مستطيل ممتلئ"
+
+#: kiconedit.cpp:424
+msgid "Circle"
+msgstr "دائرة"
+
+#: kiconedit.cpp:428
+msgid ""
+"Circle\n"
+"\n"
+"Draw a circle"
+msgstr ""
+"دائرة\n"
+"\n"
+"أرسم دائرة"
+
+#: kiconedit.cpp:432
+msgid "Filled Circle"
+msgstr "دائرة ممتلئة"
+
+#: kiconedit.cpp:436
+msgid ""
+"Filled circle\n"
+"\n"
+"Draw a filled circle"
+msgstr ""
+"دائرة مضللة\n"
+"\n"
+"رسم دائرة مضللة"
+
+#: kiconedit.cpp:440
+msgid "Ellipse"
+msgstr "بيضاوي"
+
+#: kiconedit.cpp:444
+msgid ""
+"Ellipse\n"
+"\n"
+"Draw an ellipse"
+msgstr ""
+"قطعة ناقصة\n"
+"\n"
+"رسم قطعة ناقصة"
+
+#: kiconedit.cpp:448
+msgid "Filled Ellipse"
+msgstr "قطعة ناقصة مضللة"
+
+#: kiconedit.cpp:452
+msgid ""
+"Filled ellipse\n"
+"\n"
+"Draw a filled ellipse"
+msgstr ""
+"قطعة ناقصة مضللة\n"
+"\n"
+"رسم قطعة ناقصة مضللة"
+
+#: kiconedit.cpp:456
+msgid "Spray"
+msgstr "رش"
+
+#: kiconedit.cpp:460
+msgid ""
+"Spray\n"
+"\n"
+"Draw scattered pixels in the current color"
+msgstr ""
+"رش\n"
+"\n"
+"رسم نقاط مبعثرة في اللون الحالي"
+
+#: kiconedit.cpp:465
+msgid "Flood Fill"
+msgstr "تضليل"
+
+#: kiconedit.cpp:469
+msgid ""
+"Flood fill\n"
+"\n"
+"Fill adjoining pixels with the same color with the current color"
+msgstr ""
+"تضليل\n"
+"\n"
+"ملىء البكسلات المتجانبة بلون واحد (وهو اللون الحالي)"
+
+#: kiconedit.cpp:474
+msgid "Line"
+msgstr "سطر"
+
+#: kiconedit.cpp:478
+msgid ""
+"Line\n"
+"\n"
+"Draw a straight line vertically, horizontally or at 45 deg. angles"
+msgstr ""
+"خط\n"
+"\n"
+"رسم خط مستقيم رأسياُ أو عمودياً أو بدرجة/زاوية 45"
+
+#: kiconedit.cpp:483
+msgid "Eraser (Transparent)"
+msgstr "مَساحة (شفاف)"
+
+#: kiconedit.cpp:487
+msgid ""
+"Erase\n"
+"\n"
+"Erase pixels. Set the pixels to be transparent\n"
+"\n"
+"(Tip: If you want to draw transparency with a different tool, first click on "
+"\"Erase\" then on the tool you want to use)"
+msgstr ""
+"مسح\n"
+"\n"
+"مسح البكسلات، ضبط البكسلات لكي تصبح شفافة\n"
+"\n"
+"(تلميحة: إذا أردت أن ترسم لوناً شفافاً بواسطة أداة أخرى، أولا انقر على \"مسح\" "
+"وبعد ذلك انقر على الأداة التي تريد استخدامها)"
+
+#: kiconedit.cpp:494
+msgid "Rectangular Selection"
+msgstr "تحديد على شكل مستطيل"
+
+#: kiconedit.cpp:498
+msgid ""
+"Select\n"
+"\n"
+"Select a rectangular section of the icon using the mouse."
+msgstr ""
+"اختيار\n"
+"\n"
+"اختيار جزء من الأيقونة على شكل مستطيل باستخدام الفأرة."
+
+#: kiconedit.cpp:503
+msgid "Circular Selection"
+msgstr "تحديد على شكل دائري"
+
+#: kiconedit.cpp:507
+msgid ""
+"Select\n"
+"\n"
+"Select a circular section of the icon using the mouse."
+msgstr ""
+"تحديد\n"
+"\n"
+"اختيار جزء من الأيقونة على شكل دائرة باستخدام الفأرة."
+
+#: kiconedit.cpp:535
+msgid ""
+"Statusbar\n"
+"\n"
+"The statusbar gives information on the status of the current icon. The "
+"fields are:\n"
+"\n"
+"\t- Application messages\n"
+"\t- Cursor position\n"
+"\t- Size\n"
+"\t- Zoom factor\n"
+"\t- Number of colors"
+msgstr ""
+"شريط المعلومات\n"
+"\n"
+"يعطيك شريط المعلومات معلومات عن حالة الأيقونة الحالية، الحقول  هي:\n"
+"\n"
+"\t-رسائل التطبيق\n"
+"\t-موضع المؤشر\n"
+"\t-الحجم\n"
+"\t-معامل التكبير/التصغير\n"
+"\t-عدد الألوان"
+
+#: kiconedit.cpp:544 kiconeditslots.cpp:451 kiconeditslots.cpp:457
+#, kde-format
+msgid "Colors: %1"
+msgstr "ألوان: %1"
+
+#: kiconediticon.cpp:71
+#, kde-format
+msgid ""
+"The URL: %1 \n"
+"seems to be malformed.\n"
+msgstr ""
+"عنوان الإنترنت: %1 \n"
+"غير صحيح.\n"
+
+#: kiconediticon.cpp:87 kiconediticon.cpp:102
+#, kde-format
+msgid ""
+"There was an error loading:\n"
+"%1\n"
+msgstr ""
+"حدث خطأ جلب:\n"
+"%1\n"
+
+#: kiconediticon.cpp:176
+msgid "Save Icon As"
+msgstr "حفظ الايقونة كـ"
+
+#: kiconediticon.cpp:211
+#, kde-format
+msgid "A file named \"%1\" already exists. Overwrite it?"
+msgstr "الملف بالاسم \"%1\" موجود مسبقاً. الكتابة عليه؟"
+
+#: kiconediticon.cpp:213
+msgid "Overwrite File?"
+msgstr "الكتابة على الملف؟"
+
+#: kiconediticon.cpp:214
+msgid "&Overwrite"
+msgstr "ال&كتابة على"
+
+#: kiconediticon.cpp:277
+#, kde-format
+msgid ""
+"There was an error saving:\n"
+"%1\n"
+msgstr ""
+"حدث خطأ عند حفظ:\n"
+"%1\n"
+
+#: kiconeditslots.cpp:204
+#, kde-format
+msgid "Print %1"
+msgstr "طباعة %1"
+
+#: kiconeditslots.cpp:430
+#, kde-format
+msgctxt "Status Position"
+msgid "%1, %2"
+msgstr "%1، %2"
+
+#: kiconeditslots.cpp:436
+#, kde-format
+msgctxt "Status Size"
+msgid "%1 x %2"
+msgstr "%1 × %2"
+
+#: kiconeditslots.cpp:476
+msgid "modified"
+msgstr "معدل"
+
+#: kicongrid.cpp:100
+msgid ""
+"Icon draw grid\n"
+"\n"
+"The icon grid is the area where you draw the icons.\n"
+"You can zoom in and out using the magnifying glasses on the toolbar.\n"
+"(Tip: Hold the magnify button down for a few seconds to zoom to a predefined "
+"scale)"
+msgstr ""
+"ايقونة رسم الشبكة \n"
+"\n"
+"شبكة الأيقونة هي المنطقة التي يرسم  بها الأيقونات.\n"
+"وبإمكانك تكبير أو تصغير مساحة الرسم باستخدام عدستى التكبير اللتين على شريط "
+"الأدوات\n"
+"(تلميحة: انقر وابق ضاغطاً على أيقونة العدسة لعدة ثواني، حتى تظهر لك "
+"مقياستكبير/التصغير المعرف سابقاً)"
+
+#: kicongrid.cpp:128
+msgid "width"
+msgstr "العرض"
+
+#: kicongrid.cpp:133
+msgid "height"
+msgstr "الارتفاع"
+
+#: kicongrid.cpp:137
+msgid ""
+"Rulers\n"
+"\n"
+"This is a visual representation of the current cursor position"
+msgstr ""
+"مسطرة\n"
+"\n"
+"عرض الموضع الحالي لمؤشر الفأرة على شبكة الرسم"
+
+#: kicongrid.cpp:831
+msgid "Free Hand"
+msgstr "الرسم الحر"
+
+#: kicongrid.cpp:1035
+msgid "There was an error loading a blank image.\n"
+msgstr "حدث خطأ عند تحميل صورة فارغة.\n"
+
+#: kicongrid.cpp:1167
+msgid "All selected"
+msgstr "تم تحديد الكل"
+
+#: kicongrid.cpp:1178
+msgid "Cleared"
+msgstr "تم المسح"
+
+#: kicongrid.cpp:1219
+msgid "Selected area cut"
+msgstr "تم قص المساحة المحددة"
+
+#: kicongrid.cpp:1223
+msgid "Selected area copied"
+msgstr "تم نسخ المساحة المحددة"
+
+#: kicongrid.cpp:1248
+msgid ""
+"The clipboard image is larger than the current image!\n"
+"Paste as new image?"
+msgstr ""
+"الصورة التي في الحافظة أكبر من الصور الحالية!\n"
+"هل ترغب بلصقها كصورة جديدة؟"
+
+#: kicongrid.cpp:1249
+#, fuzzy
+msgid "Paste"
+msgstr "لصق"
+
+#: kicongrid.cpp:1249
+msgid "Do Not Paste"
+msgstr "لا تلصق"
+
+#: kicongrid.cpp:1368 kicongrid.cpp:1402
+msgid "Done pasting"
+msgstr "إنتهيت من اللصق"
+
+#: kicongrid.cpp:1373 kicongrid.cpp:1408
+#, fuzzy
+msgid "Invalid pixmap data in clipboard.\n"
+msgstr "غير صحيح البيانات بوصة حافظة n"
+
+#: kicongrid.cpp:1915
+msgid "Drawn Array"
+msgstr "رسمت المصفوفة"
+
+#: knew.cpp:49
+msgid "Standard File"
+msgstr "ملف قياسي"
+
+#: knew.cpp:53
+msgid "Source File"
+msgstr "ملف مصدر"
+
+#: knew.cpp:57
+msgid "Compressed File"
+msgstr "ملف مضغوط"
+
+#: knew.cpp:61
+msgid "Standard Folder"
+msgstr "مجلد قياسي"
+
+#: knew.cpp:65
+msgid "Standard Package"
+msgstr "حزمة قياسية"
+
+#: knew.cpp:69
+msgid "Mini Folder"
+msgstr "مجلد مصغر"
+
+#: knew.cpp:73
+msgid "Mini Package"
+msgstr "حزمة مصغرة"
+
+#: knew.cpp:172
+msgid "Create from scratch"
+msgstr "إنشاء من الصفر"
+
+#: knew.cpp:176
+msgid "Create from template"
+msgstr "إنشاء من قالب"
+
+#: knew.cpp:235
+msgid "Create New Icon"
+msgstr "إنشاء أيقونة جديدة"
+
+#: knew.cpp:256
+msgid "Select Icon Type"
+msgstr "اختيار نوع الأيقونة"
+
+#: knew.cpp:257 knew.cpp:298
+msgid "Create From Scratch"
+msgstr "إنشاء من نقطة الانطلاق"
+
+#: knew.cpp:304
+msgid "Create From Template"
+msgstr "إنشاء من القالب"
+
+#: kresize.cpp:35
+msgid "Size"
+msgstr "حجم"
+
+#: kresize.cpp:70
+msgid "Select Size"
+msgstr "تحديد الحجم"
+
+#: main.cpp:35
+msgid "KDE Icon Editor"
+msgstr "محرر الأيقونات KDE"
+
+#: main.cpp:39
+msgid "KIconEdit"
+msgstr "KIconEdit"
+
+#: main.cpp:41
+#, fuzzy
+msgid "(c) 1998, Thomas Tanghus"
+msgstr "c توماس"
+
+#: main.cpp:43
+#, fuzzy
+msgid "Thomas Tanghus"
+msgstr "توماس"
+
+#: main.cpp:44
+#, fuzzy
+msgid "John Califf"
+msgstr "جون"
+
+#: main.cpp:45
+#, fuzzy
+msgid "Laurent Montel"
+msgstr "لوران مونتال (Laurent Montel)"
+
+#: main.cpp:46
+#, fuzzy
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:47
+#, fuzzy
+msgid "Nadeem Hasan"
+msgstr "Nadeem Hasan"
+
+#: main.cpp:47
+#, fuzzy
+msgid ""
+"Rewrote UI to use XMLGUI\n"
+"Lots of fixes and cleanup"
+msgstr "أعيد كتابة UI إلى استخدام من و"
+
+#: main.cpp:49
+#, fuzzy
+#| msgid "Mini Package"
+msgid "Adrian Page"
+msgstr "ادرايان صفحة"
+
+#: main.cpp:49
+msgid "Bug fixes and GUI tidy up"
+msgstr "تصحيح الاخطاء و تنظيف واجهة المستخدم الرسومية"
+
+#: main.cpp:54
+msgid "Icon file(s) to open"
+msgstr "ملف(ات) الأيقونات لفتحها"
+
+#: palettetoolbar.cpp:53
+msgid ""
+"Preview\n"
+"\n"
+"This is a 1:1 preview of the current icon"
+msgstr ""
+"المعاينة\n"
+"\n"
+"هذه معاينة بنسبة 1:1 للأيقونة الحالية"
+
+#: palettetoolbar.cpp:61
+msgid ""
+"Current color\n"
+"\n"
+"This is the currently selected color"
+msgstr ""
+"اللون الحالي\n"
+"\n"
+"هذا هو اللون المختار حالياً"
+
+#: palettetoolbar.cpp:66
+msgid "System colors:"
+msgstr "ألوان النظام:"
+
+#: palettetoolbar.cpp:69
+msgid ""
+"System colors\n"
+"\n"
+"Here you can select colors from the KDE icon palette"
+msgstr ""
+"ألوان النظام\n"
+"\n"
+"من هنا يمكنك اختيار ألاوان من لوحة الألوان الـKDE."
+
+#: palettetoolbar.cpp:79
+msgid "Custom colors:"
+msgstr "ألوان مخصصة:"
+
+#: palettetoolbar.cpp:82
+msgid ""
+"Custom colors\n"
+"\n"
+"Here you can build a palette of custom colors.\n"
+"Double-click on a box to edit the color"
+msgstr ""
+"ألوان مخصصة\n"
+"\n"
+"هنا يمكنك بناء لوحة ألوان من اختيارك\n"
+"انقر مرتين على المربع لتحرير اللون"
+
+#. i18n: file: kiconeditui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+#, fuzzy
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: kiconeditui.rc:7
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6
+#, fuzzy
+msgid "&Edit"
+msgstr "&حرّر"
+
+#. i18n: file: kiconeditui.rc:13
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:9
+#, fuzzy
+msgid "&Tools"
+msgstr "أ&دوات"
+
+#. i18n: file: kiconeditui.rc:30
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:12
+#, fuzzy
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: kiconeditui.rc:35
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:15
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#. i18n: file: kiconeditui.rc:45
+#. i18n: ectx: ToolBar (toolsToolBar)
+#: rc.cpp:18
+#, fuzzy
+msgid "Tools Toolbar"
+msgstr "شريط الأدوات "
+
+#. i18n: file: kiconeditui.rc:63
+#. i18n: ectx: ToolBar (paletteToolBar)
+#: rc.cpp:21
+#, fuzzy
+msgid "Pallette Toolbar"
+msgstr "شريط الأدوات"
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "يعقوب الجسمي,Mohamed SAAD محمد سعد"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jasmi@arabeyes.org,metehyi@free.fr"
+
+#: kicongrid.h:62
+msgid "Drawed Something"
+msgstr ""

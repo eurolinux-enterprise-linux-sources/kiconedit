@@ -1,0 +1,946 @@
+# Vietnamese translation for K Icon Edit.
+# Copyright © 2007 KDE i18n Project for Vietnamese.
+# Clytie Siddall <clytie@riverland.net.au>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kiconedit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-11 12:58+0200\n"
+"PO-Revision-Date: 2007-07-07 21:18+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.6.4a6\n"
+
+#: kiconconfig.cpp:66
+msgid "Icon Template"
+msgstr "Mẫu biểu tượng"
+
+#: kiconconfig.cpp:72
+msgid "Template"
+msgstr "Mẫu"
+
+#: kiconconfig.cpp:82
+msgid "Description:"
+msgstr "Mô tả:"
+
+#: kiconconfig.cpp:87
+msgid "Path:"
+msgstr "Đường dẫn:"
+
+#: kiconconfig.cpp:133 knew.cpp:203
+msgid "Templates"
+msgstr "Mẫu"
+
+#: kiconconfig.cpp:155
+msgid "&Add..."
+msgstr "&Thêm..."
+
+#: kiconconfig.cpp:158
+msgid "&Edit..."
+msgstr "&Sửa..."
+
+#: kiconconfig.cpp:162
+msgid "&Remove"
+msgstr "&Bỏ"
+
+#: kiconconfig.cpp:259
+msgid "Select Background"
+msgstr "Chọn nền"
+
+#: kiconconfig.cpp:280
+msgid "Use co&lor"
+msgstr "Dùng &màu"
+
+#: kiconconfig.cpp:284
+msgid "Use pix&map"
+msgstr "Dùng &sơ đồ điểm ảnh"
+
+#: kiconconfig.cpp:297
+msgid "Choose..."
+msgstr "Chọn..."
+
+#: kiconconfig.cpp:300
+msgid "Preview"
+msgstr "Xem thử"
+
+#: kiconconfig.cpp:381
+msgid "Only local files are supported yet."
+msgstr "Hỗ trợ chỉ tập tin cục bộ."
+
+#: kiconconfig.cpp:403
+msgid "Paste &transparent pixels"
+msgstr "Dán điểm ảnh &trong suốt"
+
+#: kiconconfig.cpp:407
+msgid "Show &rulers"
+msgstr "Hiện thước đ&o"
+
+#: kiconconfig.cpp:411
+msgid "Transparency Display"
+msgstr "Hiển thị trong suốt"
+
+#: kiconconfig.cpp:424
+msgid "&Solid color:"
+msgstr "Mà&u đặc:"
+
+#: kiconconfig.cpp:434
+msgid "Checker&board"
+msgstr "&Bàn cờ"
+
+#: kiconconfig.cpp:445
+msgid "Small"
+msgstr "Nhỏ"
+
+#: kiconconfig.cpp:446
+msgid "Medium"
+msgstr "Vừa"
+
+#: kiconconfig.cpp:447
+msgid "Large"
+msgstr "Lớn"
+
+#: kiconconfig.cpp:450
+msgid "Si&ze:"
+msgstr "&Cỡ :"
+
+#: kiconconfig.cpp:456
+msgid "Color &1:"
+msgstr "Màu &1:"
+
+#: kiconconfig.cpp:462
+msgid "Color &2:"
+msgstr "Màu &2:"
+
+#: kiconconfig.cpp:557
+msgid "Configure"
+msgstr "Cấu hình"
+
+#: kiconconfig.cpp:563
+msgid "Icon Templates"
+msgstr "Mẫu biểu tượng"
+
+#: kiconconfig.cpp:569
+msgid "Background"
+msgstr "Nền"
+
+#: kiconconfig.cpp:575
+msgid "Icon Grid"
+msgstr "Lưới biểu tượng"
+
+#: kiconedit.cpp:143 kiconeditslots.cpp:131
+msgid "Untitled"
+msgstr "Không tên"
+
+#: kiconedit.cpp:177 kiconeditslots.cpp:89 kiconeditslots.cpp:144
+#: kiconeditslots.cpp:288
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Tập tin hiện thời đã bị sửa đổi.\n"
+"Bạn có muốn lưu nó không?"
+
+#: kiconedit.cpp:253
+msgid "New &Window"
+msgstr "&Cửa sổ mới"
+
+#: kiconedit.cpp:256
+msgid ""
+"New window\n"
+"\n"
+"Opens a new icon editor window."
+msgstr ""
+"Cửa sổ mới\n"
+"\n"
+"Mở một cửa sổ sửa biểu tượng mới"
+
+#: kiconedit.cpp:259
+msgid ""
+"New\n"
+"\n"
+"Create a new icon, either from a template or by specifying the size"
+msgstr ""
+"Mới\n"
+"\n"
+"Tạo một biểu tượng mới, hoặc từ mẫu hoặc bằng cách xác định kích cỡ"
+
+#: kiconedit.cpp:263
+msgid ""
+"Open\n"
+"\n"
+"Open an existing icon"
+msgstr ""
+"Mở\n"
+"\n"
+"Mở biểu tượng đã có"
+
+#: kiconedit.cpp:271
+msgid ""
+"Save\n"
+"\n"
+"Save the current icon"
+msgstr ""
+"Lưu\n"
+"\n"
+"Lưu biểu tượng hiện có."
+
+#: kiconedit.cpp:276
+msgid ""
+"Print\n"
+"\n"
+"Opens a print dialog to let you print the current icon."
+msgstr ""
+"In\n"
+"\n"
+"Mở hộp thoại in để in biểu tượng hiện có."
+
+#: kiconedit.cpp:284
+msgid ""
+"Cut\n"
+"\n"
+"Cut the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"Cắt\n"
+"\n"
+"Cắt vùng chọn ra biểu tượng.\n"
+"\n"
+"(Mẹo : bạn có thể chọn vùng hình chữ nhật hay hình tròn.)"
+
+#: kiconedit.cpp:288
+msgid ""
+"Copy\n"
+"\n"
+"Copy the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"Chép\n"
+"\n"
+"Sao chép vùng chọn từ biểu tượng.\n"
+"\n"
+"(Mẹo : bạn có thể chọn vùng hình chữ nhật hay hình tròn.)"
+
+#: kiconedit.cpp:292
+msgid ""
+"Paste\n"
+"\n"
+"Paste the contents of the clipboard into the current icon.\n"
+"\n"
+"If the contents are larger than the current icon you can paste them in a new "
+"window.\n"
+"\n"
+"(Tip: Select \"Paste transparent pixels\" in the configuration dialog if you "
+"also want to paste transparency.)"
+msgstr ""
+"Dán\n"
+"\n"
+"Dán nội dung của bảng nháp vào biểu tượng hiện có.\n"
+"\n"
+"Nội dung lớn hơn biểu tượng thì bạn có thể dán vào cửa sổ mới.\n"
+"\n"
+"(Mẹo : chọn mục « Dán điểm ảnh trong suốt » trong hộp thoại cấu hình nếu bạn "
+"cũng muốn dán độ trong suốt.)"
+
+#: kiconedit.cpp:300
+msgid "Paste as &New"
+msgstr "Dá&n dạng mới"
+
+#: kiconedit.cpp:309
+msgid "Resi&ze..."
+msgstr "Đổi &cỡ..."
+
+#: kiconedit.cpp:312
+msgid ""
+"Resize\n"
+"\n"
+"Smoothly resizes the icon while trying to preserve the contents"
+msgstr ""
+"Đổi cỡ\n"
+"\n"
+"Thay đổi mịn kích cỡ của biểu tượng còn thử bảo tồn nội dung."
+
+#: kiconedit.cpp:317
+msgid "&GrayScale"
+msgstr "Mức &xám"
+
+#: kiconedit.cpp:320
+msgid ""
+"Gray scale\n"
+"\n"
+"Gray scale the current icon.\n"
+"(Warning: The result is likely to contain colors not in the icon palette"
+msgstr ""
+"Mức xám\n"
+"\n"
+"Làm biểu tượng hiển thị mức xám.\n"
+"\n"
+"(Cảnh báo : kết quả rất có thể chứa màu sắc không phải trong bảng chọn màu "
+"biểu tượng.)"
+
+#: kiconedit.cpp:327
+msgid ""
+"Zoom in\n"
+"\n"
+"Zoom in by one."
+msgstr ""
+"Phóng to\n"
+"\n"
+"Phóng to theo một."
+
+#: kiconedit.cpp:331
+msgid ""
+"Zoom out\n"
+"\n"
+"Zoom out by one."
+msgstr ""
+"Thu nhỏ\n"
+"\n"
+"Thu nhỏ theo một."
+
+#: kiconedit.cpp:335
+msgid "&Zoom"
+msgstr "Thu &phóng"
+
+#: kiconedit.cpp:339
+msgid "100%"
+msgstr "100%"
+
+#: kiconedit.cpp:345
+msgid "200%"
+msgstr "200%"
+
+#: kiconedit.cpp:351
+msgid "500%"
+msgstr "500%"
+
+#: kiconedit.cpp:357
+msgid "1000%"
+msgstr "1000%"
+
+#: kiconedit.cpp:377
+msgid "Show &Grid"
+msgstr "Hiện &lưới"
+
+#: kiconedit.cpp:380
+msgid "Hide &Grid"
+msgstr "Ẩn &lưới"
+
+#: kiconedit.cpp:381
+msgid ""
+"Show grid\n"
+"\n"
+"Toggles the grid in the icon edit grid on/off"
+msgstr ""
+"Hiện lưới\n"
+"\n"
+"Hiển thị hay ẩn lưới sửa biểu tượng."
+
+#: kiconedit.cpp:388
+msgid "Color Picker"
+msgstr "Bộ kén màu"
+
+#: kiconedit.cpp:392
+msgid ""
+"Color Picker\n"
+"\n"
+"The color of the pixel clicked on will be the current draw color"
+msgstr ""
+"Bộ kén màu\n"
+"\n"
+"Màu của điểm ảnh bị nhấn thì là màu vẽ đang dùng."
+
+#: kiconedit.cpp:397
+msgid "Freehand"
+msgstr "Bằng tay"
+
+#: kiconedit.cpp:401
+msgid ""
+"Free hand\n"
+"\n"
+"Draw non-linear lines"
+msgstr ""
+"Bằng tay\n"
+"\n"
+"Vẽ dòng khác tuyến"
+
+#: kiconedit.cpp:408
+msgid "Rectangle"
+msgstr "Chữ nhật"
+
+#: kiconedit.cpp:412
+msgid ""
+"Rectangle\n"
+"\n"
+"Draw a rectangle"
+msgstr ""
+"Chữ nhật\n"
+"\n"
+"Vẽ hình chữ nhật"
+
+#: kiconedit.cpp:416
+msgid "Filled Rectangle"
+msgstr "Chữ nhật đặc"
+
+#: kiconedit.cpp:420
+msgid ""
+"Filled rectangle\n"
+"\n"
+"Draw a filled rectangle"
+msgstr ""
+"Chữ nhật đặc\n"
+"\n"
+"Vẽ hình chữ nhật đặc"
+
+#: kiconedit.cpp:424
+msgid "Circle"
+msgstr "Tròn"
+
+#: kiconedit.cpp:428
+msgid ""
+"Circle\n"
+"\n"
+"Draw a circle"
+msgstr ""
+"Tròn\n"
+"\n"
+"Vẽ hình tròn"
+
+#: kiconedit.cpp:432
+msgid "Filled Circle"
+msgstr "Tròn đặc"
+
+#: kiconedit.cpp:436
+msgid ""
+"Filled circle\n"
+"\n"
+"Draw a filled circle"
+msgstr ""
+"Tròn đặc\n"
+"\n"
+"Vẽ hình tròn đặc"
+
+#: kiconedit.cpp:440
+msgid "Ellipse"
+msgstr "Bầu dục"
+
+#: kiconedit.cpp:444
+msgid ""
+"Ellipse\n"
+"\n"
+"Draw an ellipse"
+msgstr ""
+"Bầu dục\n"
+"\n"
+"Vẽ hình bầu dục"
+
+#: kiconedit.cpp:448
+msgid "Filled Ellipse"
+msgstr "Bầu dục đặc"
+
+#: kiconedit.cpp:452
+msgid ""
+"Filled ellipse\n"
+"\n"
+"Draw a filled ellipse"
+msgstr ""
+"Bầu dục đặc\n"
+"\n"
+"Vẽ hình bầu dục đặc"
+
+#: kiconedit.cpp:456
+msgid "Spray"
+msgstr "Phun"
+
+#: kiconedit.cpp:460
+msgid ""
+"Spray\n"
+"\n"
+"Draw scattered pixels in the current color"
+msgstr ""
+"Phun\n"
+"\n"
+"Vẽ các điểm ảnh rải rác theo màu đang dùng."
+
+#: kiconedit.cpp:465
+msgid "Flood Fill"
+msgstr "Tràn ngập tô đầy"
+
+#: kiconedit.cpp:469
+msgid ""
+"Flood fill\n"
+"\n"
+"Fill adjoining pixels with the same color with the current color"
+msgstr ""
+"Tràn ngập tô đầy\n"
+"\n"
+"Tô đầy các điểm ảnh bên cạnh theo màu đang dùng."
+
+#: kiconedit.cpp:474
+msgid "Line"
+msgstr "Dòng"
+
+#: kiconedit.cpp:478
+msgid ""
+"Line\n"
+"\n"
+"Draw a straight line vertically, horizontally or at 45 deg. angles"
+msgstr ""
+"Dòng\n"
+"\n"
+"Vẽ dòng thẳng theo chiều dọc, theo chiều ngang hay ở góc 45º."
+
+#: kiconedit.cpp:483
+msgid "Eraser (Transparent)"
+msgstr "Xoá (trong suốt)"
+
+#: kiconedit.cpp:487
+msgid ""
+"Erase\n"
+"\n"
+"Erase pixels. Set the pixels to be transparent\n"
+"\n"
+"(Tip: If you want to draw transparency with a different tool, first click on "
+"\"Erase\" then on the tool you want to use)"
+msgstr ""
+"Xoá\n"
+"\n"
+"Xoá điểm ảnh. Đặt điểm ảnh là trong suốt.\n"
+"\n"
+"(Mẹo : nếu bạn muốn vẽ trong suốt bằng công cụ khác, trước tiên nhấn vào « "
+"Xoá » rồi vào công cụ cần dùng.)"
+
+# Rect is abbreviation for Rectangle / Rect là viết tắt cho Chữ nhật
+#: kiconedit.cpp:494
+msgid "Rectangular Selection"
+msgstr "Vùng chọn hình chữ nhật"
+
+#: kiconedit.cpp:498
+msgid ""
+"Select\n"
+"\n"
+"Select a rectangular section of the icon using the mouse."
+msgstr ""
+"Chọn\n"
+"\n"
+"Chọn một vùng hình chữ nhật của biểu tượng, bằng con chuột."
+
+#: kiconedit.cpp:503
+msgid "Circular Selection"
+msgstr "Vùng chọn hình tròn"
+
+#: kiconedit.cpp:507
+msgid ""
+"Select\n"
+"\n"
+"Select a circular section of the icon using the mouse."
+msgstr ""
+"Chọn\n"
+"\n"
+"Chọn một vùng hình tròn của biểu tượng, bằng con chuột."
+
+#: kiconedit.cpp:535
+msgid ""
+"Statusbar\n"
+"\n"
+"The statusbar gives information on the status of the current icon. The "
+"fields are:\n"
+"\n"
+"\t- Application messages\n"
+"\t- Cursor position\n"
+"\t- Size\n"
+"\t- Zoom factor\n"
+"\t- Number of colors"
+msgstr ""
+"Thanh trạng thái\n"
+"\n"
+"Thanh trạng thái cung cấp thông tin về trạng thái của biểu tượng hiện thời. "
+"Các trường:\n"
+"\n"
+" • Thông điệp ứng dụng\n"
+" • Vị trí con trỏ\n"
+" • Kích cỡ\n"
+" • Hệ số thu phóng\n"
+" • Số màu"
+
+#: kiconedit.cpp:544 kiconeditslots.cpp:451 kiconeditslots.cpp:457
+#, kde-format
+msgid "Colors: %1"
+msgstr "Màu sắc: %1"
+
+#: kiconediticon.cpp:71
+#, kde-format
+msgid ""
+"The URL: %1 \n"
+"seems to be malformed.\n"
+msgstr ""
+"URL: %1\n"
+"hình như dạng sai.\n"
+
+#: kiconediticon.cpp:87 kiconediticon.cpp:102
+#, kde-format
+msgid ""
+"There was an error loading:\n"
+"%1\n"
+msgstr ""
+"Gặp lỗi khi nạp:\n"
+"%1\n"
+
+#: kiconediticon.cpp:176
+msgid "Save Icon As"
+msgstr "Lưu biểu tượng dạng"
+
+#: kiconediticon.cpp:211
+#, kde-format
+msgid "A file named \"%1\" already exists. Overwrite it?"
+msgstr "Tập tin tên « %1 » đã có. Ghi đè lên nó không?"
+
+#: kiconediticon.cpp:213
+msgid "Overwrite File?"
+msgstr "Ghi đè lên tập tin không?"
+
+#: kiconediticon.cpp:214
+msgid "&Overwrite"
+msgstr "&Ghi đè"
+
+#: kiconediticon.cpp:277
+#, kde-format
+msgid ""
+"There was an error saving:\n"
+"%1\n"
+msgstr ""
+"Gặp lỗi khi lưu :\n"
+"%1\n"
+
+#: kiconeditslots.cpp:204
+#, kde-format
+msgid "Print %1"
+msgstr "In %1"
+
+#: kiconeditslots.cpp:430
+#, kde-format
+msgctxt "Status Position"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: kiconeditslots.cpp:436
+#, kde-format
+msgctxt "Status Size"
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: kiconeditslots.cpp:476
+msgid "modified"
+msgstr "bị sửa đổi"
+
+#: kicongrid.cpp:100
+msgid ""
+"Icon draw grid\n"
+"\n"
+"The icon grid is the area where you draw the icons.\n"
+"You can zoom in and out using the magnifying glasses on the toolbar.\n"
+"(Tip: Hold the magnify button down for a few seconds to zoom to a predefined "
+"scale)"
+msgstr ""
+"Lưới vẽ biểu tượng\n"
+"\n"
+"Lưới biểu tượng là vùng trong đó bạn vẽ biểu tượng.\n"
+"Bạn có thể phóng to và thu nhỏ bằng kính lúp trên thanh công cụ.\n"
+"\n"
+"(Mẹo : ấn rồi giữ nút kính lúp trong vài giây để thu/phóng tới tỷ lệ xác "
+"định sẵn.)"
+
+#: kicongrid.cpp:128
+msgid "width"
+msgstr "rộng"
+
+#: kicongrid.cpp:133
+msgid "height"
+msgstr "cao"
+
+#: kicongrid.cpp:137
+msgid ""
+"Rulers\n"
+"\n"
+"This is a visual representation of the current cursor position"
+msgstr ""
+"Thước\n"
+"\n"
+"Hiển thị vị trí con trỏ hiện thời."
+
+#: kicongrid.cpp:831
+msgid "Free Hand"
+msgstr "Bằng tay"
+
+#: kicongrid.cpp:1035
+msgid "There was an error loading a blank image.\n"
+msgstr "Gặp lỗi khi nạp ảnh trắng.\n"
+
+#: kicongrid.cpp:1167
+msgid "All selected"
+msgstr "Tất cả đã chọn"
+
+#: kicongrid.cpp:1178
+msgid "Cleared"
+msgstr "Bị xoá"
+
+#: kicongrid.cpp:1219
+msgid "Selected area cut"
+msgstr "Vùng chọn đã cắt"
+
+#: kicongrid.cpp:1223
+msgid "Selected area copied"
+msgstr "Vùng chọn đã sao chép"
+
+#: kicongrid.cpp:1248
+msgid ""
+"The clipboard image is larger than the current image!\n"
+"Paste as new image?"
+msgstr ""
+"Bảng nháp chứa ảnh lớn hơn ảnh hiện thời.\n"
+"Dán dạng ảnh mới không?"
+
+#: kicongrid.cpp:1249
+msgid "Paste"
+msgstr "Dán"
+
+#: kicongrid.cpp:1249
+msgid "Do Not Paste"
+msgstr "Đừng dán"
+
+#: kicongrid.cpp:1368 kicongrid.cpp:1402
+msgid "Done pasting"
+msgstr "Mới dán xong"
+
+#: kicongrid.cpp:1373 kicongrid.cpp:1408
+msgid "Invalid pixmap data in clipboard.\n"
+msgstr "Bảng nháp chứa dữ liệu sơ đồ điểm ảnh không hợp lệ.\n"
+
+#: kicongrid.cpp:1915
+msgid "Drawn Array"
+msgstr "Mảng đã vẽ"
+
+#: knew.cpp:49
+msgid "Standard File"
+msgstr "Tập tin chuẩn"
+
+#: knew.cpp:53
+msgid "Source File"
+msgstr "Tập tin nguồn"
+
+#: knew.cpp:57
+msgid "Compressed File"
+msgstr "Tập tin đã nén"
+
+#: knew.cpp:61
+msgid "Standard Folder"
+msgstr "Thư mục chuẩn"
+
+#: knew.cpp:65
+msgid "Standard Package"
+msgstr "Gói chuẩn"
+
+#: knew.cpp:69
+msgid "Mini Folder"
+msgstr "Thư mục nhỏ"
+
+#: knew.cpp:73
+msgid "Mini Package"
+msgstr "Gói nhỏ"
+
+#: knew.cpp:172
+msgid "Create from scratch"
+msgstr "Tạo từ con số không"
+
+#: knew.cpp:176
+msgid "Create from template"
+msgstr "Tạo từ mẫu"
+
+#: knew.cpp:235
+msgid "Create New Icon"
+msgstr "Tạo biểu tượng mới"
+
+#: knew.cpp:256
+msgid "Select Icon Type"
+msgstr "Chọn kiểu biểu tượng"
+
+#: knew.cpp:257 knew.cpp:298
+msgid "Create From Scratch"
+msgstr "Tạo từ con số không"
+
+#: knew.cpp:304
+msgid "Create From Template"
+msgstr "Tạo từ mẫu"
+
+#: kresize.cpp:35
+msgid "Size"
+msgstr "Cỡ"
+
+#: kresize.cpp:70
+msgid "Select Size"
+msgstr "Chọn kích cỡ"
+
+#: main.cpp:35
+msgid "KDE Icon Editor"
+msgstr "Bộ Sửa Biểu tượng KDE"
+
+#: main.cpp:39
+msgid "KIconEdit"
+msgstr "KIconEdit"
+
+#: main.cpp:41
+msgid "(c) 1998, Thomas Tanghus"
+msgstr "© năm 1998 của Thomas Tanghus"
+
+#: main.cpp:43
+msgid "Thomas Tanghus"
+msgstr "Thomas Tanghus"
+
+#: main.cpp:44
+msgid "John Califf"
+msgstr "John Califf"
+
+#: main.cpp:45
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:46
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:47
+msgid "Nadeem Hasan"
+msgstr "Nadeem Hasan"
+
+#: main.cpp:47
+msgid ""
+"Rewrote UI to use XMLGUI\n"
+"Lots of fixes and cleanup"
+msgstr ""
+"Ghi lại UI để dùng XMLGUI\n"
+"Rất nhiều sự sửa chữa\n"
+"và làm sạch"
+
+#: main.cpp:49
+msgid "Adrian Page"
+msgstr "Adrian Page"
+
+#: main.cpp:49
+msgid "Bug fixes and GUI tidy up"
+msgstr "Sửa chữa lỗi và làm sạch GUI"
+
+#: main.cpp:54
+msgid "Icon file(s) to open"
+msgstr "Tập tin biểu tượng cần mở"
+
+#: palettetoolbar.cpp:53
+msgid ""
+"Preview\n"
+"\n"
+"This is a 1:1 preview of the current icon"
+msgstr ""
+"Xem thử\n"
+"\n"
+"Đây là ô xem thử biểu tượng hiện thời"
+
+#: palettetoolbar.cpp:61
+msgid ""
+"Current color\n"
+"\n"
+"This is the currently selected color"
+msgstr ""
+"Màu hiện có\n"
+"\n"
+"Đây là màu được chọn hiện thời."
+
+#: palettetoolbar.cpp:66
+msgid "System colors:"
+msgstr "Màu sắc hệ thống:"
+
+#: palettetoolbar.cpp:69
+msgid ""
+"System colors\n"
+"\n"
+"Here you can select colors from the KDE icon palette"
+msgstr ""
+"Màu sắc hệ thống\n"
+"\n"
+"Ở đây bạn có thể chọn màu sắc trong bảng chọn biểu tượng KDE."
+
+#: palettetoolbar.cpp:79
+msgid "Custom colors:"
+msgstr "Màu tự chọn:"
+
+#: palettetoolbar.cpp:82
+msgid ""
+"Custom colors\n"
+"\n"
+"Here you can build a palette of custom colors.\n"
+"Double-click on a box to edit the color"
+msgstr ""
+"Màu tự chọn\n"
+"\n"
+"Ở đây bạn có thể xây dựng một bảng chọn màu sắc tự chọn.\n"
+"Nhấn đôi vào hộp để sửa màu đó."
+
+#. i18n: file: kiconeditui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+msgid "&File"
+msgstr "&Tập tin"
+
+#. i18n: file: kiconeditui.rc:7
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6
+msgid "&Edit"
+msgstr "&Sửa"
+
+#. i18n: file: kiconeditui.rc:13
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:9
+msgid "&Tools"
+msgstr "&Công cụ"
+
+#. i18n: file: kiconeditui.rc:30
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:12
+msgid "&Settings"
+msgstr "Thiết &lập"
+
+#. i18n: file: kiconeditui.rc:35
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:15
+msgid "Main Toolbar"
+msgstr "Thanh công cụ chính"
+
+#. i18n: file: kiconeditui.rc:45
+#. i18n: ectx: ToolBar (toolsToolBar)
+#: rc.cpp:18
+msgid "Tools Toolbar"
+msgstr "Thanh công cụ Công cụ"
+
+#. i18n: file: kiconeditui.rc:63
+#. i18n: ectx: ToolBar (paletteToolBar)
+#: rc.cpp:21
+msgid "Pallette Toolbar"
+msgstr "Thanh công cụ Bảng chọn"
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nhóm Việt hoá KDE"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-vi@kde.org"
+
+#: kicongrid.h:62
+msgid "Drawed Something"
+msgstr ""

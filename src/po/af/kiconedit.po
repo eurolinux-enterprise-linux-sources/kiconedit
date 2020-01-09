@@ -1,0 +1,962 @@
+# WEB-Translator generated file. UTF-8 test:äëïöü
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Frikkie Thirion <frix@expertron.co.za>, 2001,2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kiconedit VERSION\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-11 12:58+0200\n"
+"PO-Revision-Date: 2002-11-07 11:32+0200\n"
+"Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
+"Language-Team: AFRIKAANS <AF@lia.org.za>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: kiconconfig.cpp:66
+#, fuzzy
+msgid "Icon Template"
+msgstr "Ikoon Voorbeelde"
+
+#: kiconconfig.cpp:72
+msgid "Template"
+msgstr "Werkvoorbeeld"
+
+#: kiconconfig.cpp:82
+msgid "Description:"
+msgstr "Beskrywing:"
+
+#: kiconconfig.cpp:87
+msgid "Path:"
+msgstr "Gids soeklys:"
+
+#: kiconconfig.cpp:133 knew.cpp:203
+msgid "Templates"
+msgstr "Voorbeelde"
+
+#: kiconconfig.cpp:155
+msgid "&Add..."
+msgstr "Voeg by..."
+
+#: kiconconfig.cpp:158
+msgid "&Edit..."
+msgstr "Redigeer..."
+
+#: kiconconfig.cpp:162
+msgid "&Remove"
+msgstr ""
+
+#: kiconconfig.cpp:259
+#, fuzzy
+msgid "Select Background"
+msgstr "Agtergrond"
+
+#: kiconconfig.cpp:280
+#, fuzzy
+msgid "Use co&lor"
+msgstr "Stelsel kleure:"
+
+#: kiconconfig.cpp:284
+msgid "Use pix&map"
+msgstr ""
+
+#: kiconconfig.cpp:297
+msgid "Choose..."
+msgstr ""
+
+#: kiconconfig.cpp:300
+msgid "Preview"
+msgstr ""
+
+#: kiconconfig.cpp:381
+msgid "Only local files are supported yet."
+msgstr "Slegs plaaslike lêers word ondersteunde nog."
+
+#: kiconconfig.cpp:403
+#, fuzzy
+msgid "Paste &transparent pixels"
+msgstr "Plak transparent beeld elemente"
+
+#: kiconconfig.cpp:407
+#, fuzzy
+msgid "Show &rulers"
+msgstr "Vertoon lineale"
+
+#: kiconconfig.cpp:411
+msgid "Transparency Display"
+msgstr ""
+
+#: kiconconfig.cpp:424
+msgid "&Solid color:"
+msgstr ""
+
+#: kiconconfig.cpp:434
+msgid "Checker&board"
+msgstr ""
+
+#: kiconconfig.cpp:445
+msgid "Small"
+msgstr ""
+
+#: kiconconfig.cpp:446
+msgid "Medium"
+msgstr ""
+
+#: kiconconfig.cpp:447
+msgid "Large"
+msgstr ""
+
+#: kiconconfig.cpp:450
+#, fuzzy
+msgid "Si&ze:"
+msgstr "Grootte"
+
+#: kiconconfig.cpp:456
+#, fuzzy
+msgid "Color &1:"
+msgstr "Kleure: %1"
+
+#: kiconconfig.cpp:462
+#, fuzzy
+msgid "Color &2:"
+msgstr "Kleure: %1"
+
+#: kiconconfig.cpp:557
+msgid "Configure"
+msgstr ""
+
+#: kiconconfig.cpp:563
+msgid "Icon Templates"
+msgstr "Ikoon Voorbeelde"
+
+#: kiconconfig.cpp:569
+msgid "Background"
+msgstr "Agtergrond"
+
+#: kiconconfig.cpp:575
+msgid "Icon Grid"
+msgstr "Ikoon Rooster"
+
+#: kiconedit.cpp:143 kiconeditslots.cpp:131
+msgid "Untitled"
+msgstr ""
+
+#: kiconedit.cpp:177 kiconeditslots.cpp:89 kiconeditslots.cpp:144
+#: kiconeditslots.cpp:288
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Die huidige lêer het al veranderde.\n"
+"Doen jy wil hê na stoor dit?"
+
+#: kiconedit.cpp:253
+msgid "New &Window"
+msgstr "Nuwe Venster"
+
+#: kiconedit.cpp:256
+#, fuzzy
+msgid ""
+"New window\n"
+"\n"
+"Opens a new icon editor window."
+msgstr ""
+"Nuwe venster\n"
+"\n"
+"Maak oop 'n Nuwe Ikoon Redigeerder venster."
+
+#: kiconedit.cpp:259
+msgid ""
+"New\n"
+"\n"
+"Create a new icon, either from a template or by specifying the size"
+msgstr ""
+"Nuwe\n"
+"\n"
+"Skep 'n Nuwe ikoon, òf van 'n werkvoorbeeld of deur spesifisering die grootte"
+
+#: kiconedit.cpp:263
+msgid ""
+"Open\n"
+"\n"
+"Open an existing icon"
+msgstr ""
+"Open\n"
+"\n"
+"Open 'n bestaande ikoon"
+
+#: kiconedit.cpp:271
+msgid ""
+"Save\n"
+"\n"
+"Save the current icon"
+msgstr ""
+"Stoor\n"
+"\n"
+"Stoor die huidige ikoon"
+
+#: kiconedit.cpp:276
+msgid ""
+"Print\n"
+"\n"
+"Opens a print dialog to let you print the current icon."
+msgstr ""
+"Druk\n"
+"\n"
+"Maak oop 'n Druk dialoog na laat jy Druk die huidige ikoon."
+
+#: kiconedit.cpp:284
+#, fuzzy
+msgid ""
+"Cut\n"
+"\n"
+"Cut the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"Knip\n"
+"\n"
+"Knip die huidige keuse uit van die ikoon\n"
+"\n"
+"(Leidraad: Jy kan maak beide vierkantige en sirkelvormige kiesings)"
+
+#: kiconedit.cpp:288
+#, fuzzy
+msgid ""
+"Copy\n"
+"\n"
+"Copy the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"Kopie\n"
+"\n"
+"Kopie die huidige keuse uit van die ikoon\n"
+"\n"
+"(Leidraad: Jy kan maak beide vierkantige en sirkelvormige kiesings)"
+
+#: kiconedit.cpp:292
+msgid ""
+"Paste\n"
+"\n"
+"Paste the contents of the clipboard into the current icon.\n"
+"\n"
+"If the contents are larger than the current icon you can paste them in a new "
+"window.\n"
+"\n"
+"(Tip: Select \"Paste transparent pixels\" in the configuration dialog if you "
+"also want to paste transparency.)"
+msgstr ""
+"Plak\n"
+"\n"
+"Plak die inhoud van die klipbord binnein die huidige ikoon.\n"
+"\n"
+"As die inhoud word grootter as die huidige ikoon jy kan Plak hulle in 'n "
+"nuwe venster.\n"
+"\n"
+"(Leidraad: Kies \"Plak transparent beeld elemente\" in die opstelling "
+"dialoog As jy asook wil hê na Plak deursigtigheid.)"
+
+#: kiconedit.cpp:300
+msgid "Paste as &New"
+msgstr "Plak as Nuwe"
+
+#: kiconedit.cpp:309
+#, fuzzy
+msgid "Resi&ze..."
+msgstr "Hervergroot"
+
+#: kiconedit.cpp:312
+msgid ""
+"Resize\n"
+"\n"
+"Smoothly resizes the icon while trying to preserve the contents"
+msgstr ""
+"Hervergroot\n"
+"\n"
+"Glad hervergroot die ikoon terwyl probeer na behou die inhoud"
+
+#: kiconedit.cpp:317
+msgid "&GrayScale"
+msgstr "Gryskleur"
+
+#: kiconedit.cpp:320
+msgid ""
+"Gray scale\n"
+"\n"
+"Gray scale the current icon.\n"
+"(Warning: The result is likely to contain colors not in the icon palette"
+msgstr ""
+"Grys skaal\n"
+"\n"
+"Grys skaal die huidige ikoon.\n"
+"(Waarskuwing: die resultaat is waarskynlik na bevat kleure nie in die ikoon "
+"palet"
+
+#: kiconedit.cpp:327
+msgid ""
+"Zoom in\n"
+"\n"
+"Zoom in by one."
+msgstr ""
+"Zoem in\n"
+"\n"
+"Zoem in deur een."
+
+#: kiconedit.cpp:331
+msgid ""
+"Zoom out\n"
+"\n"
+"Zoom out by one."
+msgstr ""
+"Zoem uit\n"
+"\n"
+"Zoem uit deur een."
+
+#: kiconedit.cpp:335
+msgid "&Zoom"
+msgstr ""
+
+#: kiconedit.cpp:339
+msgid "100%"
+msgstr ""
+
+#: kiconedit.cpp:345
+msgid "200%"
+msgstr ""
+
+#: kiconedit.cpp:351
+msgid "500%"
+msgstr ""
+
+#: kiconedit.cpp:357
+msgid "1000%"
+msgstr ""
+
+#: kiconedit.cpp:377
+msgid "Show &Grid"
+msgstr "Vertoon Rooster"
+
+#: kiconedit.cpp:380
+#, fuzzy
+msgid "Hide &Grid"
+msgstr "Vertoon Rooster"
+
+#: kiconedit.cpp:381
+#, fuzzy
+msgid ""
+"Show grid\n"
+"\n"
+"Toggles the grid in the icon edit grid on/off"
+msgstr ""
+"Wissel rooster\n"
+"\n"
+"Skakel tussen die rooster in die ikoon redigeer rooster op/af"
+
+#: kiconedit.cpp:388
+#, fuzzy
+msgid "Color Picker"
+msgstr "Gekleurde agtergrond"
+
+#: kiconedit.cpp:392
+#, fuzzy
+msgid ""
+"Color Picker\n"
+"\n"
+"The color of the pixel clicked on will be the current draw color"
+msgstr ""
+"Soek\n"
+"\n"
+"Die kleur van Die pixel gekliek het op sal wees Die huidige teken kleur"
+
+#: kiconedit.cpp:397
+msgid "Freehand"
+msgstr "Vryhand"
+
+#: kiconedit.cpp:401
+msgid ""
+"Free hand\n"
+"\n"
+"Draw non-linear lines"
+msgstr ""
+"Vry hand\n"
+"\n"
+"Teken non-linear lyne"
+
+#: kiconedit.cpp:408
+msgid "Rectangle"
+msgstr "Driehoek"
+
+#: kiconedit.cpp:412
+msgid ""
+"Rectangle\n"
+"\n"
+"Draw a rectangle"
+msgstr ""
+"Driehoek\n"
+"\n"
+"Teken 'n Driehoek"
+
+#: kiconedit.cpp:416
+msgid "Filled Rectangle"
+msgstr "Gevul Driehoek"
+
+#: kiconedit.cpp:420
+msgid ""
+"Filled rectangle\n"
+"\n"
+"Draw a filled rectangle"
+msgstr ""
+"Gevul driehoek\n"
+"\n"
+"Teken 'n Gevul driehoek"
+
+#: kiconedit.cpp:424
+msgid "Circle"
+msgstr "Sirkel"
+
+#: kiconedit.cpp:428
+msgid ""
+"Circle\n"
+"\n"
+"Draw a circle"
+msgstr ""
+"Sirkel\n"
+"\n"
+"Teken 'n Sirkel"
+
+#: kiconedit.cpp:432
+msgid "Filled Circle"
+msgstr "Gevul Sirkel"
+
+#: kiconedit.cpp:436
+msgid ""
+"Filled circle\n"
+"\n"
+"Draw a filled circle"
+msgstr ""
+"Gevul sirkel\n"
+"\n"
+"Teken 'n Gevul sirkel"
+
+#: kiconedit.cpp:440
+msgid "Ellipse"
+msgstr "Elipse"
+
+#: kiconedit.cpp:444
+msgid ""
+"Ellipse\n"
+"\n"
+"Draw an ellipse"
+msgstr ""
+"Elipse\n"
+"\n"
+"Teken 'n Elipse"
+
+#: kiconedit.cpp:448
+msgid "Filled Ellipse"
+msgstr "Gevul Elipse"
+
+#: kiconedit.cpp:452
+msgid ""
+"Filled ellipse\n"
+"\n"
+"Draw a filled ellipse"
+msgstr ""
+"Gevul elipse\n"
+"\n"
+"Teken 'n Gevul elipse"
+
+#: kiconedit.cpp:456
+msgid "Spray"
+msgstr "Sproei"
+
+#: kiconedit.cpp:460
+msgid ""
+"Spray\n"
+"\n"
+"Draw scattered pixels in the current color"
+msgstr ""
+"Sproei\n"
+"\n"
+"Teken verstrooide beeld elemente in die huidige kleur"
+
+#: kiconedit.cpp:465
+msgid "Flood Fill"
+msgstr "Vloed Opvul"
+
+#: kiconedit.cpp:469
+msgid ""
+"Flood fill\n"
+"\n"
+"Fill adjoining pixels with the same color with the current color"
+msgstr ""
+"Vloed opvul\n"
+"\n"
+"opvul aangrensende beeld elemente met die selfde kleur met die huidige kleur"
+
+#: kiconedit.cpp:474
+msgid "Line"
+msgstr "Lyn"
+
+#: kiconedit.cpp:478
+msgid ""
+"Line\n"
+"\n"
+"Draw a straight line vertically, horizontally or at 45 deg. angles"
+msgstr ""
+"Lyn\n"
+"\n"
+"Teken 'n reguit Lyn vertikaal, horisontaal of na 45 grade. hoeke"
+
+#: kiconedit.cpp:483
+msgid "Eraser (Transparent)"
+msgstr "Uitveer (Transparent)"
+
+#: kiconedit.cpp:487
+msgid ""
+"Erase\n"
+"\n"
+"Erase pixels. Set the pixels to be transparent\n"
+"\n"
+"(Tip: If you want to draw transparency with a different tool, first click on "
+"\"Erase\" then on the tool you want to use)"
+msgstr ""
+"Vee uit\n"
+"\n"
+"Vee uit beeld elemente. Stel die beeld elemente na wees transparent\n"
+"\n"
+"(Leidraad: As jy wil hê na teken deursigtigheid met 'n ander program, eerste "
+"kliek op \"Vee uit\" dan word op die program jy wil hê na gebruik)"
+
+#: kiconedit.cpp:494
+msgid "Rectangular Selection"
+msgstr "Vierkantige Keuse"
+
+#: kiconedit.cpp:498
+msgid ""
+"Select\n"
+"\n"
+"Select a rectangular section of the icon using the mouse."
+msgstr ""
+"Kies\n"
+"\n"
+"Kies 'n vierkantige seksie van die ikoon te gebruik die muis."
+
+#: kiconedit.cpp:503
+msgid "Circular Selection"
+msgstr "Sirkelvormige Keuse"
+
+#: kiconedit.cpp:507
+msgid ""
+"Select\n"
+"\n"
+"Select a circular section of the icon using the mouse."
+msgstr ""
+"Kies\n"
+"\n"
+"Kies 'n sirkelvormige seksie van die ikoon te gebruik die muis."
+
+#: kiconedit.cpp:535
+#, fuzzy
+msgid ""
+"Statusbar\n"
+"\n"
+"The statusbar gives information on the status of the current icon. The "
+"fields are:\n"
+"\n"
+"\t- Application messages\n"
+"\t- Cursor position\n"
+"\t- Size\n"
+"\t- Zoom factor\n"
+"\t- Number of colors"
+msgstr ""
+"Statusbalk\n"
+"\n"
+"Die Statusbalk gee informasie op Die status van Die huidige ikoon. Die velde "
+"word:\n"
+"\n"
+"\t- Plekaanduier posisie\n"
+"\t- Grootte\n"
+"\t- Zoem faktor\n"
+"\t- Nommer van kleure\n"
+"\t- Aansoek boodskappe"
+
+#: kiconedit.cpp:544 kiconeditslots.cpp:451 kiconeditslots.cpp:457
+#, kde-format
+msgid "Colors: %1"
+msgstr "Kleure: %1"
+
+#: kiconediticon.cpp:71
+#, kde-format
+msgid ""
+"The URL: %1 \n"
+"seems to be malformed.\n"
+msgstr ""
+"Die Url: %1 \n"
+"blyk na wees misformde.\n"
+
+#: kiconediticon.cpp:87 kiconediticon.cpp:102
+#, fuzzy, kde-format
+msgid ""
+"There was an error loading:\n"
+"%1\n"
+msgstr ""
+"Daar was 'n fout stooring:\n"
+"%1\n"
+
+#: kiconediticon.cpp:176
+msgid "Save Icon As"
+msgstr "Stoor Ikoon As"
+
+#: kiconediticon.cpp:211
+#, kde-format
+msgid "A file named \"%1\" already exists. Overwrite it?"
+msgstr ""
+
+#: kiconediticon.cpp:213
+msgid "Overwrite File?"
+msgstr ""
+
+#: kiconediticon.cpp:214
+msgid "&Overwrite"
+msgstr ""
+
+#: kiconediticon.cpp:277
+#, kde-format
+msgid ""
+"There was an error saving:\n"
+"%1\n"
+msgstr ""
+"Daar was 'n fout stooring:\n"
+"%1\n"
+
+#: kiconeditslots.cpp:204
+#, kde-format
+msgid "Print %1"
+msgstr ""
+
+#: kiconeditslots.cpp:430
+#, kde-format
+msgctxt "Status Position"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: kiconeditslots.cpp:436
+#, kde-format
+msgctxt "Status Size"
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: kiconeditslots.cpp:476
+msgid "modified"
+msgstr ""
+
+#: kicongrid.cpp:100
+msgid ""
+"Icon draw grid\n"
+"\n"
+"The icon grid is the area where you draw the icons.\n"
+"You can zoom in and out using the magnifying glasses on the toolbar.\n"
+"(Tip: Hold the magnify button down for a few seconds to zoom to a predefined "
+"scale)"
+msgstr ""
+"Ikoon teken rooster\n"
+"\n"
+"Die Ikoon rooster is Die area waar jy teken Die ikoone.\n"
+"jy kan zoem in en uit te gebruik Die vergroot glaasse op Die nutsbalk.\n"
+"(Leidraad: Hou Die vergroot knoppie ondertoe vir 'n paar sekondes na zoem na "
+"'n vooraf gedefinieerde skaal)"
+
+#: kicongrid.cpp:128
+msgid "width"
+msgstr "wydte"
+
+#: kicongrid.cpp:133
+msgid "height"
+msgstr "hoogte"
+
+#: kicongrid.cpp:137
+msgid ""
+"Rulers\n"
+"\n"
+"This is a visual representation of the current cursor position"
+msgstr ""
+"Lineale\n"
+"\n"
+"Hierdie is 'n visuele voorstelling van die huidige plekaanduier posisie"
+
+#: kicongrid.cpp:831
+#, fuzzy
+msgid "Free Hand"
+msgstr "Vryhand"
+
+#: kicongrid.cpp:1035
+msgid "There was an error loading a blank image.\n"
+msgstr "Daar was 'n fout laaiïng van 'n leë beeld.\n"
+
+#: kicongrid.cpp:1167
+msgid "All selected"
+msgstr "Alle gekose"
+
+#: kicongrid.cpp:1178
+msgid "Cleared"
+msgstr "Skoon gemaak"
+
+#: kicongrid.cpp:1219
+msgid "Selected area cut"
+msgstr "Gekose area knip"
+
+#: kicongrid.cpp:1223
+msgid "Selected area copied"
+msgstr "Gekose area gekopieer"
+
+#: kicongrid.cpp:1248
+msgid ""
+"The clipboard image is larger than the current image!\n"
+"Paste as new image?"
+msgstr ""
+"Die klipbord beeld is grootter as Die huidige beeld!\n"
+"Plak as nuwe beeld?"
+
+#: kicongrid.cpp:1249
+#, fuzzy
+msgid "Paste"
+msgstr "Gids soeklys:"
+
+#: kicongrid.cpp:1249
+msgid "Do Not Paste"
+msgstr ""
+
+#: kicongrid.cpp:1368 kicongrid.cpp:1402
+msgid "Done pasting"
+msgstr "Klaar plak"
+
+#: kicongrid.cpp:1373 kicongrid.cpp:1408
+#, fuzzy
+msgid "Invalid pixmap data in clipboard.\n"
+msgstr "Ongeldige bispatroon data in klipbord!\n"
+
+#: kicongrid.cpp:1915
+msgid "Drawn Array"
+msgstr ""
+
+#: knew.cpp:49
+msgid "Standard File"
+msgstr "Standaard Lêer"
+
+#: knew.cpp:53
+msgid "Source File"
+msgstr "Bron Lêer"
+
+#: knew.cpp:57
+msgid "Compressed File"
+msgstr "Saamgepersde Lêer"
+
+#: knew.cpp:61
+msgid "Standard Folder"
+msgstr "Standaard Kabinet"
+
+#: knew.cpp:65
+msgid "Standard Package"
+msgstr "Standaard Paket"
+
+#: knew.cpp:69
+msgid "Mini Folder"
+msgstr "Mini Kabinet"
+
+#: knew.cpp:73
+msgid "Mini Package"
+msgstr "Mini Paket"
+
+#: knew.cpp:172
+msgid "Create from scratch"
+msgstr "Skep van krap"
+
+#: knew.cpp:176
+msgid "Create from template"
+msgstr "Skep van werkvoorbeeld"
+
+#: knew.cpp:235
+msgid "Create New Icon"
+msgstr "Skep Nuwe Ikoon"
+
+#: knew.cpp:256
+msgid "Select Icon Type"
+msgstr "Kies Ikoon Tipe"
+
+#: knew.cpp:257 knew.cpp:298
+msgid "Create From Scratch"
+msgstr "Skep Van Krap"
+
+#: knew.cpp:304
+msgid "Create From Template"
+msgstr "Skep Van Werkvoorbeeld"
+
+#: kresize.cpp:35
+msgid "Size"
+msgstr "Grootte"
+
+#: kresize.cpp:70
+msgid "Select Size"
+msgstr "Kies Grootte"
+
+#: main.cpp:35
+msgid "KDE Icon Editor"
+msgstr "Kde Ikoon Redigeerder"
+
+#: main.cpp:39
+msgid "KIconEdit"
+msgstr "K-ikoon-redigeer"
+
+#: main.cpp:41
+msgid "(c) 1998, Thomas Tanghus"
+msgstr ""
+
+#: main.cpp:43
+msgid "Thomas Tanghus"
+msgstr ""
+
+#: main.cpp:44
+msgid "John Califf"
+msgstr ""
+
+#: main.cpp:45
+msgid "Laurent Montel"
+msgstr ""
+
+#: main.cpp:46
+msgid "Aaron J. Seigo"
+msgstr ""
+
+#: main.cpp:47
+msgid "Nadeem Hasan"
+msgstr ""
+
+#: main.cpp:47
+msgid ""
+"Rewrote UI to use XMLGUI\n"
+"Lots of fixes and cleanup"
+msgstr ""
+
+#: main.cpp:49
+#, fuzzy
+#| msgid "Mini Package"
+msgid "Adrian Page"
+msgstr "Mini Paket"
+
+#: main.cpp:49
+msgid "Bug fixes and GUI tidy up"
+msgstr ""
+
+#: main.cpp:54
+msgid "Icon file(s) to open"
+msgstr "Ikoon lêer(s) na open"
+
+#: palettetoolbar.cpp:53
+msgid ""
+"Preview\n"
+"\n"
+"This is a 1:1 preview of the current icon"
+msgstr ""
+"Voorskou\n"
+"\n"
+"Hierdie is 'n 1:1 Voorskou van die huidige ikoon"
+
+#: palettetoolbar.cpp:61
+msgid ""
+"Current color\n"
+"\n"
+"This is the currently selected color"
+msgstr ""
+
+#: palettetoolbar.cpp:66
+msgid "System colors:"
+msgstr "Stelsel kleure:"
+
+#: palettetoolbar.cpp:69
+#, fuzzy
+msgid ""
+"System colors\n"
+"\n"
+"Here you can select colors from the KDE icon palette"
+msgstr ""
+"Stelsel kleure\n"
+"\n"
+"Hier jy kan kies kleure van die Kde Ikoon Palet."
+
+#: palettetoolbar.cpp:79
+msgid "Custom colors:"
+msgstr "Pasmaak kleure:"
+
+#: palettetoolbar.cpp:82
+msgid ""
+"Custom colors\n"
+"\n"
+"Here you can build a palette of custom colors.\n"
+"Double-click on a box to edit the color"
+msgstr ""
+"Pasmaak kleure\n"
+"\n"
+"Hier jy kan bou 'n palet van Pasmaak kleure.\n"
+"Double-click op 'n boks na redigeer die kleur"
+
+#. i18n: file: kiconeditui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:7
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6
+#, fuzzy
+msgid "&Edit"
+msgstr "Redigeer..."
+
+#. i18n: file: kiconeditui.rc:13
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:9
+msgid "&Tools"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:30
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:12
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:35
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:15
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "Mini Kabinet"
+
+#. i18n: file: kiconeditui.rc:45
+#. i18n: ectx: ToolBar (toolsToolBar)
+#: rc.cpp:18
+msgid "Tools Toolbar"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:63
+#. i18n: ectx: ToolBar (paletteToolBar)
+#: rc.cpp:21
+msgid "Pallette Toolbar"
+msgstr ""
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "WEB-Vertaler (http://kde.af.org.za)"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "frix@expertron.co.za"
+
+#: kicongrid.h:62
+msgid "Drawed Something"
+msgstr ""
