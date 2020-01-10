@@ -1,7 +1,7 @@
 
 Name:    kiconedit
 Version: 4.4.0
-Release: 7%{?dist}
+Release: 9%{?dist}
 Summary: An icon editor
 
 License: GPLv2+
@@ -70,6 +70,12 @@ update-desktop-database -q &> /dev/null ||:
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4.4.0-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.4.0-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 4.4.0-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
