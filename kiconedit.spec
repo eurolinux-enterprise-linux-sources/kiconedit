@@ -1,13 +1,12 @@
 
 Name:    kiconedit
 Version: 4.4.0
-Release: 10%{?dist}
+Release: 7%{?dist}
 Summary: An icon editor
 
 License: GPLv2+
 URL:     http://www.kde.org/
 Source0: ftp://ftp.kde.org/pub/kde/stable/%{version}/src/extragear/%{name}-%{version}.tar.bz2
-Source1: hi96-app-kiconedit.png
 
 BuildRequires: kdelibs4-devel
 BuildRequires: desktop-file-utils
@@ -16,7 +15,7 @@ BuildRequires: gettext
 %{?_kde4_version:Requires: kdelibs4%{?_isa} >= %{_kde4_version}}
 
 %description
-KIconEdit is designed to help create icons for
+KIconEdit is designed to help create icons for 
 KDE using the standard icon palette.
 
 
@@ -39,9 +38,6 @@ make %{?_smp_mflags} -C %{_target_platform}
 
 %install
 make install/fast DESTDIR=%{buildroot} -C %{_target_platform}
-
-install -p -m644 -D %{SOURCE1} %{buildroot}%{_datadir}/icons/hicolor/96x96/apps/kiconedit.png
-
 
 %find_lang %{name} --with-kde
 
@@ -74,16 +70,6 @@ update-desktop-database -q &> /dev/null ||:
 
 
 %changelog
-* Mon Mar 06 2017 Jan Grulich <jgrulich@redhat.com> - 4.4.0-10
-- Add icon in higher resolution
-  Resolves: bz#823002
-
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4.4.0-9
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.4.0-8
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 4.4.0-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
