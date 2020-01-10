@@ -1,0 +1,1399 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY kappname "&kiconedit;">
+  <!ENTITY package "kdegraphics">
+  <!ENTITY % Russian "INCLUDE"
+> <!-- change language only here -->
+  <!ENTITY % addindex "IGNORE">
+]>
+
+<book lang="&language;">
+<bookinfo>
+<title
+>Руководство &kiconedit;</title>
+<authorgroup>
+<author
+><firstname
+>Thomas</firstname
+> <surname
+>Tanghus</surname
+> <affiliation
+> <address
+><email
+>tanghus@earthling.net</email
+></address>
+</affiliation>
+</author>
+
+<othercredit role="translator"
+><firstname
+>Иван </firstname
+> <surname
+>Кашуков </surname
+><affiliation
+><address
+><email
+>dolphin210@yandex.ru </email
+></address
+></affiliation
+><contrib
+>Перевод на русский</contrib
+></othercredit
+> 
+
+</authorgroup>
+
+<copyright>
+<year
+>1997</year>
+<holder
+>Thomas Tanghus</holder>
+</copyright>
+<copyright>
+<year
+>2001</year
+><year
+>2003</year>
+<holder
+>Lauri Watts</holder>
+</copyright>
+
+<legalnotice>
+&FDLNotice;
+</legalnotice>
+
+<date
+>2003-11-06</date>
+<releaseinfo
+>3.1.93</releaseinfo>
+
+<abstract>
+<para
+>С помощью &kiconedit; вы можете создавать пиктограммы для &kde;, используя стандартную палитру. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>kdegraphics</keyword>
+<keyword
+>KIconEdit</keyword>
+<keyword
+>icon</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="Introduction">
+<title
+>Введение</title>
+
+<blockquote>
+<attribution
+>Thomas Tanghus <email
+>tanghus@earthling.net</email
+></attribution>
+
+<para
+>С помощью &kiconedit; вы можете создавать пиктограммы для &kde;, используя стандартную палитру. </para>
+
+<para
+>Я надеюсь, что эта программа поможет вам так или иначе. Я постараюсь учесть все предложения и комментарии. </para>
+
+</blockquote>
+
+</chapter>
+
+<chapter id="onscreen-fundamentals">
+<title
+>Основы интерфейса</title>
+
+<para
+>В этой секции содержится краткое описание интерфейса редактора пиктограмм. </para>
+
+<para
+>Окно редактора пиктограмм делится на 4 части: основная панель инструментов, панель инструментов рисования, сетка и строка состояния. </para>
+
+<sect1 id="main-toolbar">
+<title
+>Основная панель инструментов</title>
+
+<variablelist>
+
+<varlistentry>
+<term
+><guiicon
+>Создать</guiicon
+></term>
+<listitem>
+<para
+><action
+>Создать новую пиктограмму.</action
+> Если текущий файл был изменён, программа спросит вас, хотите ли вы сохранить изменения. После этого будет выведено диалоговое окно, с помощью которого вы сможете выбрать, создать ли пиктограмму "с чистого листа" или использовать шаблон. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Открыть...</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Открыть файл пиктограммы.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Сохранить</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Сохранить текущую пиктограмму.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Печать</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Распечатать пиктограмму.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Отменить действие</guiicon
+></term>
+<listitem
+><para
+>Отменить последнее действие</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Повторить отменённое действие</guiicon
+></term>
+<listitem
+><para
+>Повторить последнее отменённое действие. Если отмена действий не производилась, кнопка недоступна.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Вырезать</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Вырезать всю пиктограмму и поместить её в буфер обмена.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Копировать</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Копировать всю пиктограмму в буфер обмена.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Вставить</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Вставить содержимое буфера обмена как пиктограмму (если буфер обмена содержит её).</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Увеличить/уменьшить</guiicon
+></term>
+<term
+><guiicon
+>Увеличить</guiicon
+></term>
+<term
+><guiicon
+>Уменьшить</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Увеличить или уменьшить масштаб в соответствии с настройкой масштабирования.</action>
+</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guiicon
+>Изменить размер</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Установить новый размер пиктограммы: ширина X высота.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><action
+>Оттенки серого</action
+></term>
+<listitem>
+<para
+><action
+>Свести цвета пиктограммы к оттенкам серого.</action
+> Получившиеся цвета, возможно, не будут соответствовать стандартной палитре &kde;. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Показать/скрыть сетку</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Показать/скрыть сетку.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Что это?</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Щёлкните по этой пиктограмме, затем щёлкните по любому элементу окна -- и вы сможете прочитать краткую справку по этому элементу.</action>
+</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="tools-toolbar">
+<title
+>Панель инструментов рисования</title>
+
+<para
+>Эта панель содержит инструменты, позволяющие вам изменять пиктограмму. </para>
+
+<variablelist>
+<varlistentry>
+<term
+><guiicon
+>Кисть</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Рисовать кистью.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Получение цвета из изображения</guiicon
+></term>
+<listitem>
+<para
+><action
+>Изменить текущий цвет рисования на выбранный.</action
+> Пиктограмма при этом не изменяется. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Прямоугольник</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Нарисовать прямоугольник.</action>
+</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guiicon
+>Закрашенный прямоугольник</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Нарисовать закрашенный прямоугольник.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Окружность</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Нарисовать окружность.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Закрашенный круг</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Нарисовать закрашенный круг.</action>
+</para>
+</listitem>
+</varlistentry>
+
+
+
+
+<varlistentry>
+<term
+><guiicon
+>Эллипс</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Нарисовать эллипс.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Закрашенный эллипс</guiicon
+></term>
+<listitem>
+<para
+><action
+>Нарисовать закрашенный эллипс.</action
+> </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Распылитель</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Распылить точки текущего цвета случайным образом на некотором участке изображения.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Заливка</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Залить участок текущим цветом.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Линия</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Нарисовать линию.</action>
+</para>
+</listitem>
+</varlistentry>
+
+
+<varlistentry>
+<term
+><guiicon
+>Ластик</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Стереть точки (сделать невидимыми).</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guiicon
+>Прямоугольное выделение</guiicon
+></term>
+<term
+><guiicon
+>Эллиптическое выделение</guiicon
+></term>
+<listitem>
+<para>
+<action
+>Выделить (отметить) часть пиктограммы.</action>
+</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="grid">
+<title
+>Сетка</title>
+
+<para
+>Сетка -- область окна, в которой находится изменяемая пиктограмма. </para>
+</sect1>
+
+<sect1 id="statusbar">
+<title
+>Строка состояния</title>
+
+<para
+>Строка состояния содержит информацию о текущей операции. Данные слева направо: координаты x и y изменяемой точки, размер рамки, масштаб и количество цветов пиктограммы. </para>
+
+</sect1>
+</chapter>
+
+<chapter id="the-menu-entries">
+<title
+>Пункты меню</title>
+
+<sect1 id="file">
+<title
+><guimenu
+>Файл</guimenu
+></title>
+
+<para
+>Меню <guimenu
+>Файл</guimenu
+> включает следующие пункты: </para>
+
+<variablelist>
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>а</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Создать</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+><action
+>Создать новую пиктограмму</action
+>. Введите размер рамки или выберите шаблон. </para
+> 
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Файл</guimenu
+> <guimenuitem
+>Новое окно</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Открыть новое окно Редактора пиктограмм.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>О</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Открыть</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Открыть файл пиктограммы.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Файл</guimenu
+> <guisubmenu
+>Открыть недавние</guisubmenu
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Вывести список недавно открытых пиктограмм.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>С</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Сохранить</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Сохранить текущую пиктограмму.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Файл</guimenu
+> <guimenuitem
+>Сохранить как...</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Сохранить текущую пиктограмму под новым именем.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>ч</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Печать...</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Распечатать пиктограмму</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>З</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Закрыть</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+><action
+>Закрыть</action
+> &kiconedit;. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="edit">
+<title
+><guimenu
+>Правка</guimenu
+></title>
+
+<para
+>Меню <guimenu
+>Правка</guimenu
+> включает следующие пункты: </para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>т</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Правка</guimenu
+><guimenuitem
+>Отменить действие</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Отменить последнее действие</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+> &Ctrl;<keycap
+>П</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Правка</guimenu
+><guimenuitem
+>Повторить отменённое действие</guimenuitem
+></menuchoice
+></term>
+<listitem
+><para
+>Повторить последнее отменённое действие. Если отмена действий не производилась, кнопка недоступна.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>р</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Правка</guimenu
+> <guimenuitem
+>Вырезать</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Вырезать всю пиктограмму и поместить её в буфер обмена.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>К</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Правка</guimenu
+> <guimenuitem
+>Копировать</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Копировать всю пиктограмму в буфер обмена.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>В</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Правка</guimenu
+> <guimenuitem
+>Вставить</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Вставить содержимое буфера обмена (если в буфере находится пиктограмма).</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Правка</guimenu
+> <guimenuitem
+>Вставить как новое изображение</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Вставить содержимое буфера обмена как пиктограмму (если буфер обмена содержит её).</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Правка</guimenu
+> <guimenuitem
+>Очистить</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Очистить сетку.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>в</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Правка</guimenu
+> <guimenuitem
+>Выделить всё</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Выделить всю пиктограмму.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Правка</guimenu
+><guimenuitem
+>Изменить размер</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para>
+<action
+>Установить новый размер пиктограммы: ширина X высота.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Правка</guimenu
+><guimenuitem
+>Оттенки серого</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Свести цвета пиктограммы к оттенкам серого.</action
+> Получившиеся цвета, возможно, не будут соответствовать стандартной палитре &kde;.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</sect1>
+
+<sect1 id="view">
+<title
+><guimenu
+>Вид</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>+</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Вид</guimenu
+> <guimenuitem
+>Увеличить</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Увеличить пиктограмму. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><shortcut
+><keycombo action="simul"
+> &Ctrl;<keycap
+>-</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Вид</guimenu
+> <guimenuitem
+>Уменьшить</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Уменьшить пиктограмму.</action>
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Вид</guimenu
+> <guisubmenu
+>Масштаб</guisubmenu
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Изменить масштаб на выбранный из списка.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="tools">
+<title
+><guimenu
+>Сервис</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Кисть</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Рисовать кистью. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Найти точку</guimenuitem
+></menuchoice
+></term>
+<listitem
+><para
+>Сделать цвет выбранной мышью точки текущим цветом рисования.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Прямоугольник</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Нарисовать прямоугольник. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Закрашенный прямоугольник</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Нарисовать закрашенный прямоугольник. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Окружность</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Нарисовать окружность. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Закрашенный круг</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Нарисовать закрашенный круг. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Эллипс</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Нарисовать эллипс </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Закрашенный эллипс</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+><action
+>Нарисовать закрашенный эллипс.</action
+> </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Распылитель</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Распылить точки текущего цвета случайным образом на некотором участке изображения. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Заливка</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Закрасить текущим цветом точки, ограниченные непрозрачными линиями. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Линия</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Нарисовать прямую линию. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Ластик</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Стереть точки (сделать невидимыми).</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Прямоугольное выделение</guimenuitem
+></menuchoice
+></term>
+<term
+><menuchoice
+><guimenu
+>Сервис</guimenu
+> <guimenuitem
+>Эллиптическое выделение</guimenuitem
+></menuchoice
+></term>
+<listitem
+><para
+><action
+>Выделить (отметить) часть пиктограммы.</action>
+</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</sect1>
+
+<sect1 id="settings">
+<title
+><guimenu
+>Настройка</guimenu
+> </title>
+
+<variablelist>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Панели инструментов</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Отобразить/скрыть выбранную панель</action>
+</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Показать строку состояния</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Скрыть/отобразить строку состояния.</action>
+</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Показать сетку</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para>
+<action
+>Скрыть/отобразить сетку.</action>
+</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Настроить быстрые клавиши</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Открыть диалоговое окно настройки быстрых клавиш &kiconedit;.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term>
+<menuchoice
+><guimenu
+>Настройка</guimenu
+> <guimenuitem
+>Настроить Редактор пиктограмм KDE</guimenuitem
+> </menuchoice>
+</term>
+<listitem>
+<para
+>Открыть диалоговое окно настройки &kiconedit;. Описывается отдельно. </para>
+</listitem>
+</varlistentry>
+
+
+</variablelist>
+
+</sect1>
+
+<sect1 id="help">
+<title
+><guimenu
+>Справка</guimenu
+></title
+> &help.menu.documentation; </sect1>
+</chapter>
+
+<chapter id="credits-and-license">
+<title
+>Благодарности и лицензирование</title>
+
+<para
+>&kiconedit; </para>
+
+<para
+>Программа -- copyright Thomas Tanghus <email
+>tanghus@kde.org</email
+> </para>
+
+<itemizedlist>
+<title
+>Свой вклад в разработку внесли:</title>
+<listitem>
+<para
+>John Califf <email
+>jcaliff@compuzone.net</email
+> </para>
+</listitem>
+<listitem>
+<para
+>Laurent Montel <email
+>lmontel@mandrakesoft.com</email
+> </para>
+</listitem>
+<listitem
+><para
+>Aaron Seigo <email
+>aseigo@olympusproject.org</email
+></para
+></listitem>
+<listitem
+><para
+>Nadeem Hassan <email
+>nhasan@nadmm.com</email
+> -- UI приспособлен к использованию XMLGUI, устранение ошибок и шлифовка кода</para
+></listitem>
+<listitem
+><para
+>Adrian Page <email
+>Adrian.Page@tesco.net</email
+> -- устранение ошибок и улучшение GUI.</para
+></listitem>
+
+
+</itemizedlist>
+
+<para
+>Перевод на русский &mdash; Иван Кашуков <email
+>dolphin210@yandex.ru</email
+></para
+> 
+&underFDL; &underGPL; </chapter>
+
+<appendix id="installation">
+<title
+>Установка</title>
+
+<sect1 id="how-to-obtain-the-icon-editor">
+<title
+>Где взять &kiconedit;</title>
+&install.intro.documentation; </sect1>
+
+<sect1 id="compilation-and-installation">
+<title
+>Сборка и установка</title>
+&install.compile.documentation; </sect1>
+
+<!-- 
+<sect1 id="configuration">
+<title
+>Configuration</title>
+ 
+</sect1>
+
+-->
+</appendix>
+
+
+</book>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-indent-step:0
+sgml-indent-data:nil
+sgml-omittag:nil
+sgml-shorttag:t
+End:
+-->
+

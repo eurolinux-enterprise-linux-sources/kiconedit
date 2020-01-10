@@ -1,0 +1,952 @@
+# translation of kiconedit.po to Russian
+# KDE3 - kiconedit.pot Russian translation.
+# KDE3 - kdegraphics/kiconedit.po Russian translation.
+# Copyright (C) 2004, KDE Team.
+# Andrey S. Cherepanov <sibskull@mail.ru>, 2001-2003.
+# Nickolai Shaforostoff <shafff@ukr.net>, 2004.
+# Andrey Cherepanov <sibskull@mail.ru>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kiconedit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-12-22 06:15+0100\n"
+"PO-Revision-Date: 2007-01-19 16:08+0300\n"
+"Last-Translator: Andrey Cherepanov <sibskull@mail.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: kiconconfig.cpp:66
+msgid "Icon Template"
+msgstr "Шаблон пиктограммы"
+
+#: kiconconfig.cpp:72
+msgid "Template"
+msgstr "Шаблон"
+
+#: kiconconfig.cpp:82
+msgid "Description:"
+msgstr "Описание:"
+
+#: kiconconfig.cpp:87
+msgid "Path:"
+msgstr "Путь:"
+
+#: kiconconfig.cpp:133 knew.cpp:203
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: kiconconfig.cpp:155
+msgid "&Add..."
+msgstr "&Добавить..."
+
+#: kiconconfig.cpp:158
+msgid "&Edit..."
+msgstr "&Изменить..."
+
+#: kiconconfig.cpp:162
+msgid "&Remove"
+msgstr ""
+
+#: kiconconfig.cpp:259
+msgid "Select Background"
+msgstr "Фон"
+
+#: kiconconfig.cpp:280
+msgid "Use co&lor"
+msgstr "Использовать &цвет"
+
+#: kiconconfig.cpp:284
+msgid "Use pix&map"
+msgstr "Использовать &изображение"
+
+#: kiconconfig.cpp:297
+msgid "Choose..."
+msgstr "Выбор..."
+
+#: kiconconfig.cpp:300
+msgid "Preview"
+msgstr "Просмотр"
+
+#: kiconconfig.cpp:381
+msgid "Only local files are supported yet."
+msgstr "В данной версии поддерживаются только локальные файлы."
+
+#: kiconconfig.cpp:403
+msgid "Paste &transparent pixels"
+msgstr "Вставить &прозрачные точки"
+
+#: kiconconfig.cpp:407
+msgid "Show &rulers"
+msgstr "Показать &линейки"
+
+#: kiconconfig.cpp:411
+msgid "Transparency Display"
+msgstr "Отображение прозрачности"
+
+#: kiconconfig.cpp:424
+msgid "&Solid color:"
+msgstr "&Сплошной цвет:"
+
+#: kiconconfig.cpp:434
+msgid "Checker&board"
+msgstr "&Шахматная доска"
+
+#: kiconconfig.cpp:445
+msgid "Small"
+msgstr "маленькие"
+
+#: kiconconfig.cpp:446
+msgid "Medium"
+msgstr "средние"
+
+#: kiconconfig.cpp:447
+msgid "Large"
+msgstr "большие"
+
+#: kiconconfig.cpp:450
+msgid "Si&ze:"
+msgstr "&Размер:"
+
+#: kiconconfig.cpp:456
+msgid "Color &1:"
+msgstr "Цвет &1:"
+
+#: kiconconfig.cpp:462
+msgid "Color &2:"
+msgstr "Цвет &2:"
+
+#: kiconconfig.cpp:557
+msgid "Configure"
+msgstr ""
+
+#: kiconconfig.cpp:563
+msgid "Icon Templates"
+msgstr "Шаблоны пиктограмм"
+
+#: kiconconfig.cpp:569
+msgid "Background"
+msgstr "Фон"
+
+#: kiconconfig.cpp:575
+msgid "Icon Grid"
+msgstr "Сетка"
+
+#: kiconedit.cpp:143 kiconeditslots.cpp:131
+msgid "Untitled"
+msgstr ""
+
+#: kiconedit.cpp:177 kiconeditslots.cpp:89 kiconeditslots.cpp:144
+#: kiconeditslots.cpp:288
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Файл был изменён.\n"
+"Сохранить изменения?"
+
+#: kiconedit.cpp:253
+msgid "New &Window"
+msgstr "Новое &окно"
+
+#: kiconedit.cpp:256
+msgid ""
+"New window\n"
+"\n"
+"Opens a new icon editor window."
+msgstr ""
+"Новое окно\n"
+"\n"
+"Открывает новое окно редактора пиктограмм."
+
+#: kiconedit.cpp:259
+msgid ""
+"New\n"
+"\n"
+"Create a new icon, either from a template or by specifying the size"
+msgstr ""
+"Создать\n"
+"\n"
+"Создаёт новую пиктограмму из шаблона или по указанному размеру"
+
+#: kiconedit.cpp:263
+msgid ""
+"Open\n"
+"\n"
+"Open an existing icon"
+msgstr ""
+"Открыть\n"
+"\n"
+"Открывает существующий файл пиктограммы"
+
+#: kiconedit.cpp:271
+msgid ""
+"Save\n"
+"\n"
+"Save the current icon"
+msgstr ""
+"Сохранить\n"
+"\n"
+"Сохраняет текущую пиктограмму на диске"
+
+#: kiconedit.cpp:276
+msgid ""
+"Print\n"
+"\n"
+"Opens a print dialog to let you print the current icon."
+msgstr ""
+"Печать\n"
+"\n"
+"Открывает диалог, который позволяет распечатать текущую пиктограмму."
+
+#: kiconedit.cpp:284
+msgid ""
+"Cut\n"
+"\n"
+"Cut the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"Вырезать\n"
+"\n"
+"Удаляет текущее выделение пиктограммы в буфер обмена\n"
+"\n"
+"Примечание: можно использовать как прямоугольное, так и эллиптическое "
+"выделение"
+
+#: kiconedit.cpp:288
+msgid ""
+"Copy\n"
+"\n"
+"Copy the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"Копировать\n"
+"\n"
+"Копирует текущее выделение пиктограммы в буфер обмена\n"
+"\n"
+"Примечание: можно использовать как прямоугольное, так и эллиптическое "
+"выделение"
+
+#: kiconedit.cpp:292
+msgid ""
+"Paste\n"
+"\n"
+"Paste the contents of the clipboard into the current icon.\n"
+"\n"
+"If the contents are larger than the current icon you can paste them in a new "
+"window.\n"
+"\n"
+"(Tip: Select \"Paste transparent pixels\" in the configuration dialog if you "
+"also want to paste transparency.)"
+msgstr ""
+"Вставить\n"
+"\n"
+"Вставляет содержимое буфера обмена в текущую пиктограмму.\n"
+"\n"
+"Если содержимое буфера больше размера пиктограммы, вы можете вставить "
+"содержимое в новом окне\n"
+"\n"
+"(Совет: выберите \"Вставить прозрачные точки\" в диалоге настроек, если вы "
+"хотите вставить с сохранением прозрачности.)"
+
+#: kiconedit.cpp:300
+msgid "Paste as &New"
+msgstr "Вставить как &новое изображение"
+
+#: kiconedit.cpp:309
+msgid "Resi&ze..."
+msgstr "Изменить &размер..."
+
+#: kiconedit.cpp:312
+msgid ""
+"Resize\n"
+"\n"
+"Smoothly resizes the icon while trying to preserve the contents"
+msgstr ""
+"Изменить размер\n"
+"\n"
+"Растягивает изображение до нужных размеров"
+
+#: kiconedit.cpp:317
+msgid "&GrayScale"
+msgstr "&Градации серого"
+
+#: kiconedit.cpp:320
+msgid ""
+"Gray scale\n"
+"\n"
+"Gray scale the current icon.\n"
+"(Warning: The result is likely to contain colors not in the icon palette"
+msgstr ""
+"Градации серого\n"
+"\n"
+"Обесцвечивает пиктограмму.\n"
+"Внимание: в полученном изображении могут быть цвета, не входящие \n"
+"в палитру пиктограммы"
+
+#: kiconedit.cpp:327
+msgid ""
+"Zoom in\n"
+"\n"
+"Zoom in by one."
+msgstr ""
+"Приблизить\n"
+"\n"
+"Приближает изображение."
+
+#: kiconedit.cpp:331
+msgid ""
+"Zoom out\n"
+"\n"
+"Zoom out by one."
+msgstr ""
+"Отдалить\n"
+"\n"
+"Отдаляет изображение."
+
+#: kiconedit.cpp:335
+msgid "&Zoom"
+msgstr ""
+
+#: kiconedit.cpp:339
+msgid "100%"
+msgstr "100%"
+
+#: kiconedit.cpp:345
+msgid "200%"
+msgstr "200%"
+
+#: kiconedit.cpp:351
+msgid "500%"
+msgstr "500%"
+
+#: kiconedit.cpp:357
+msgid "1000%"
+msgstr "1000%"
+
+#: kiconedit.cpp:377
+msgid "Show &Grid"
+msgstr "Показать &сетку"
+
+#: kiconedit.cpp:380
+msgid "Hide &Grid"
+msgstr "Скрыть &сетку"
+
+#: kiconedit.cpp:381
+msgid ""
+"Show grid\n"
+"\n"
+"Toggles the grid in the icon edit grid on/off"
+msgstr ""
+"Показать сетку\n"
+"\n"
+"Показывает или скрывает сетку рисования пиктограммы"
+
+#: kiconedit.cpp:388
+msgid "Color Picker"
+msgstr "Выбор цвета"
+
+#: kiconedit.cpp:392
+msgid ""
+"Color Picker\n"
+"\n"
+"The color of the pixel clicked on will be the current draw color"
+msgstr ""
+"Выбор цвета\n"
+"\n"
+"Цвет выбранной мышью точки становится текущим цветом рисования"
+
+#: kiconedit.cpp:397
+msgid "Freehand"
+msgstr "Кисть"
+
+#: kiconedit.cpp:401
+msgid ""
+"Free hand\n"
+"\n"
+"Draw non-linear lines"
+msgstr ""
+"Кисть\n"
+"\n"
+"Рисует любые линии"
+
+#: kiconedit.cpp:408
+msgid "Rectangle"
+msgstr "Прямоугольник"
+
+#: kiconedit.cpp:412
+msgid ""
+"Rectangle\n"
+"\n"
+"Draw a rectangle"
+msgstr ""
+"Прямоугольник\n"
+"\n"
+"Рисует прямоугольник"
+
+#: kiconedit.cpp:416
+msgid "Filled Rectangle"
+msgstr "Закрашенный прямоугольник"
+
+#: kiconedit.cpp:420
+msgid ""
+"Filled rectangle\n"
+"\n"
+"Draw a filled rectangle"
+msgstr ""
+"Закрашенный прямоугольник\n"
+"\n"
+"Рисует закрашенный прямоугольник"
+
+#: kiconedit.cpp:424
+msgid "Circle"
+msgstr "Окружность"
+
+#: kiconedit.cpp:428
+msgid ""
+"Circle\n"
+"\n"
+"Draw a circle"
+msgstr ""
+"Окружность\n"
+"\n"
+"Рисует окружность"
+
+#: kiconedit.cpp:432
+msgid "Filled Circle"
+msgstr "Закрашенный круг"
+
+#: kiconedit.cpp:436
+msgid ""
+"Filled circle\n"
+"\n"
+"Draw a filled circle"
+msgstr ""
+"Закрашенный круг\n"
+"\n"
+"Рисует закрашенный круг"
+
+#: kiconedit.cpp:440
+msgid "Ellipse"
+msgstr "Эллипс"
+
+#: kiconedit.cpp:444
+msgid ""
+"Ellipse\n"
+"\n"
+"Draw an ellipse"
+msgstr ""
+"Эллипс\n"
+"\n"
+"Рисует эллипс"
+
+#: kiconedit.cpp:448
+msgid "Filled Ellipse"
+msgstr "Закрашенный эллипс"
+
+#: kiconedit.cpp:452
+msgid ""
+"Filled ellipse\n"
+"\n"
+"Draw a filled ellipse"
+msgstr ""
+"Закрашенный эллипс\n"
+"\n"
+"Рисует закрашенный эллипс"
+
+#: kiconedit.cpp:456
+msgid "Spray"
+msgstr "Распылитель"
+
+#: kiconedit.cpp:460
+msgid ""
+"Spray\n"
+"\n"
+"Draw scattered pixels in the current color"
+msgstr ""
+"Распылитель\n"
+"\n"
+"Распыляет точки текущего цвета случайным образом на изображении"
+
+#: kiconedit.cpp:465
+msgid "Flood Fill"
+msgstr "Заливка"
+
+#: kiconedit.cpp:469
+msgid ""
+"Flood fill\n"
+"\n"
+"Fill adjoining pixels with the same color with the current color"
+msgstr ""
+"Заливка\n"
+"\n"
+"Заливает прилегающие точки выбранным цветом"
+
+#: kiconedit.cpp:474
+msgid "Line"
+msgstr "Линия"
+
+#: kiconedit.cpp:478
+msgid ""
+"Line\n"
+"\n"
+"Draw a straight line vertically, horizontally or at 45 deg. angles"
+msgstr ""
+"Линия\n"
+"\n"
+"Рисует прямую линию вертикально, горизонтально или под углом в 45 градусов"
+
+#: kiconedit.cpp:483
+msgid "Eraser (Transparent)"
+msgstr "Ластик (с прозрачностью)"
+
+#: kiconedit.cpp:487
+msgid ""
+"Erase\n"
+"\n"
+"Erase pixels. Set the pixels to be transparent\n"
+"\n"
+"(Tip: If you want to draw transparency with a different tool, first click on "
+"\"Erase\" then on the tool you want to use)"
+msgstr ""
+"Стереть\n"
+"\n"
+"Стирает точки. Делает точки прозрачными\n"
+"\n"
+"(Совет: если вы хотите рисовать фигуры прозрачным цветом, щёлкните на "
+"'Стереть', затем на нужном инструменте.)"
+
+#: kiconedit.cpp:494
+msgid "Rectangular Selection"
+msgstr "Прямоугольное выделение"
+
+#: kiconedit.cpp:498
+msgid ""
+"Select\n"
+"\n"
+"Select a rectangular section of the icon using the mouse."
+msgstr ""
+"Выделение\n"
+"\n"
+"Позволяет мышью выделить прямоугольный фрагмент пиктограммы."
+
+#: kiconedit.cpp:503
+msgid "Circular Selection"
+msgstr "Эллиптическое выделение"
+
+#: kiconedit.cpp:507
+msgid ""
+"Select\n"
+"\n"
+"Select a circular section of the icon using the mouse."
+msgstr ""
+"Выделение\n"
+"\n"
+"Позволяет мышью выделить эллиптический фрагмент пиктограммы."
+
+#: kiconedit.cpp:535
+msgid ""
+"Statusbar\n"
+"\n"
+"The statusbar gives information on the status of the current icon. The "
+"fields are:\n"
+"\n"
+"\t- Application messages\n"
+"\t- Cursor position\n"
+"\t- Size\n"
+"\t- Zoom factor\n"
+"\t- Number of colors"
+msgstr ""
+"Строка состояния\n"
+"\n"
+"Строка состояния показывает сведения о текущей пиктограмме. Она имеет "
+"следующие поля:\n"
+"\n"
+"\t- Сообщения программы\n"
+"\t- Позиция курсора\n"
+"\t- Размер\n"
+"\t- Масштаб\n"
+"\t- Количество цветов"
+
+#: kiconedit.cpp:544 kiconeditslots.cpp:451 kiconeditslots.cpp:457
+#, kde-format
+msgid "Colors: %1"
+msgstr "Цветов: %1"
+
+#: kiconediticon.cpp:71
+#, kde-format
+msgid ""
+"The URL: %1 \n"
+"seems to be malformed.\n"
+msgstr "Возможно, неверный URL %1.\n"
+
+#: kiconediticon.cpp:87 kiconediticon.cpp:102
+#, kde-format
+msgid ""
+"There was an error loading:\n"
+"%1\n"
+msgstr ""
+"Ошибка открытия:\n"
+"%1\n"
+
+#: kiconediticon.cpp:176
+msgid "Save Icon As"
+msgstr "Сохранить пиктограмму как"
+
+#: kiconediticon.cpp:211
+#, kde-format
+msgid "A file named \"%1\" already exists. Overwrite it?"
+msgstr "Файл с именем \"%1\" уже существует. Вы хотите перезаписать его?"
+
+#: kiconediticon.cpp:213
+msgid "Overwrite File?"
+msgstr "Перезаписать файл?"
+
+#: kiconediticon.cpp:214
+msgid "&Overwrite"
+msgstr "&Перезаписать"
+
+#: kiconediticon.cpp:277
+#, kde-format
+msgid ""
+"There was an error saving:\n"
+"%1\n"
+msgstr ""
+"Ошибка сохранения:\n"
+"%1\n"
+
+#: kiconeditslots.cpp:204
+#, kde-format
+msgid "Print %1"
+msgstr "Печать %1"
+
+#: kiconeditslots.cpp:430
+#, kde-format
+msgctxt "Status Position"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: kiconeditslots.cpp:436
+#, kde-format
+msgctxt "Status Size"
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: kiconeditslots.cpp:476
+msgid "modified"
+msgstr "изменён"
+
+#: kicongrid.cpp:100
+msgid ""
+"Icon draw grid\n"
+"\n"
+"The icon grid is the area where you draw the icons.\n"
+"You can zoom in and out using the magnifying glasses on the toolbar.\n"
+"(Tip: Hold the magnify button down for a few seconds to zoom to a predefined "
+"scale)"
+msgstr ""
+"Сетка рисования пиктограмм\n"
+"\n"
+"Сетка пиктограммы - это область, в которой вы рисуете пиктограммы.\n"
+"Вы можете изменить масштаб изображения, используя лупу на панели \n"
+"инструментов. (Совет: нажатие на лупу в течение нескольких \n"
+"секунд выдаёт список готовых масштабов)"
+
+#: kicongrid.cpp:128
+msgid "width"
+msgstr "ширина"
+
+#: kicongrid.cpp:133
+msgid "height"
+msgstr "высота"
+
+#: kicongrid.cpp:137
+msgid ""
+"Rulers\n"
+"\n"
+"This is a visual representation of the current cursor position"
+msgstr ""
+"Линейки\n"
+"\n"
+"Визуальное представление текущего положения курсора"
+
+#: kicongrid.cpp:831
+msgid "Free Hand"
+msgstr "Кисть"
+
+#: kicongrid.cpp:1035
+msgid "There was an error loading a blank image.\n"
+msgstr "Ошибка загрузки пустого изображения.\n"
+
+#: kicongrid.cpp:1167
+msgid "All selected"
+msgstr "Выбрано все"
+
+#: kicongrid.cpp:1178
+msgid "Cleared"
+msgstr "Очищено"
+
+#: kicongrid.cpp:1219
+msgid "Selected area cut"
+msgstr "Вырезано в буфер обмена"
+
+#: kicongrid.cpp:1223
+msgid "Selected area copied"
+msgstr "Скопировано в буфер обмена"
+
+#: kicongrid.cpp:1248
+msgid ""
+"The clipboard image is larger than the current image!\n"
+"Paste as new image?"
+msgstr ""
+"Изображение в буфере обмена больше, чем текущее изображение!\n"
+"Вставить как новое изображение?"
+
+#: kicongrid.cpp:1249
+#, fuzzy
+msgid "Paste"
+msgstr "Путь:"
+
+#: kicongrid.cpp:1249
+msgid "Do Not Paste"
+msgstr "Не вставлять"
+
+#: kicongrid.cpp:1368 kicongrid.cpp:1402
+msgid "Done pasting"
+msgstr "Вставить"
+
+#: kicongrid.cpp:1373 kicongrid.cpp:1408
+#, fuzzy
+msgid "Invalid pixmap data in clipboard.\n"
+msgstr "В буфере обмена не изображение!\n"
+
+#: kicongrid.cpp:1915
+msgid "Drawn Array"
+msgstr "Массив нарисованных точек"
+
+#: knew.cpp:49
+msgid "Standard File"
+msgstr "Обычный файл"
+
+#: knew.cpp:53
+msgid "Source File"
+msgstr "Файл исходных текстов"
+
+#: knew.cpp:57
+msgid "Compressed File"
+msgstr "Сжатый файл"
+
+#: knew.cpp:61
+msgid "Standard Folder"
+msgstr "Обычная папка"
+
+#: knew.cpp:65
+msgid "Standard Package"
+msgstr "Обычный пакет"
+
+#: knew.cpp:69
+msgid "Mini Folder"
+msgstr "Мини-папка"
+
+#: knew.cpp:73
+msgid "Mini Package"
+msgstr "Мини-пакет"
+
+#: knew.cpp:172
+msgid "Create from scratch"
+msgstr "Создать заново"
+
+#: knew.cpp:176
+msgid "Create from template"
+msgstr "Создать из шаблона"
+
+#: knew.cpp:235
+msgid "Create New Icon"
+msgstr "Создать новую пиктограмму"
+
+#: knew.cpp:256
+msgid "Select Icon Type"
+msgstr "Выберите тип пиктограммы"
+
+#: knew.cpp:257 knew.cpp:297
+msgid "Create From Scratch"
+msgstr "Создать заново"
+
+#: knew.cpp:303
+msgid "Create From Template"
+msgstr "Создать из шаблона"
+
+#: kresize.cpp:35
+msgid "Size"
+msgstr "Размер"
+
+#: kresize.cpp:70
+msgid "Select Size"
+msgstr "Размер выделения"
+
+#: main.cpp:35
+msgid "KDE Icon Editor"
+msgstr "Редактор пиктограмм KDE"
+
+#: main.cpp:39
+msgid "KIconEdit"
+msgstr "Редактор пиктограмм KDE"
+
+#: main.cpp:41
+msgid "(c) 1998, Thomas Tanghus"
+msgstr "© Thomas Tanghus, 1998"
+
+#: main.cpp:43
+msgid "Thomas Tanghus"
+msgstr ""
+
+#: main.cpp:44
+msgid "John Califf"
+msgstr ""
+
+#: main.cpp:45
+msgid "Laurent Montel"
+msgstr ""
+
+#: main.cpp:46
+msgid "Aaron J. Seigo"
+msgstr ""
+
+#: main.cpp:47
+msgid "Nadeem Hasan"
+msgstr ""
+
+#: main.cpp:47
+msgid ""
+"Rewrote UI to use XMLGUI\n"
+"Lots of fixes and cleanup"
+msgstr ""
+
+#: main.cpp:49
+#, fuzzy
+#| msgid "Mini Package"
+msgid "Adrian Page"
+msgstr "Мини-пакет"
+
+#: main.cpp:49
+msgid "Bug fixes and GUI tidy up"
+msgstr "Исправление ошибок и приведение в порядок интерфейса"
+
+#: main.cpp:54
+msgid "Icon file(s) to open"
+msgstr "Открыть файл пиктограммы"
+
+#: palettetoolbar.cpp:53
+msgid ""
+"Preview\n"
+"\n"
+"This is a 1:1 preview of the current icon"
+msgstr ""
+"Просмотр\n"
+"\n"
+"Просмотр текущей пиктограммы в масштабе 1:1"
+
+#: palettetoolbar.cpp:61
+msgid ""
+"Current color\n"
+"\n"
+"This is the currently selected color"
+msgstr ""
+"Текущий цвет\n"
+"\n"
+"Текущий цвет рисования."
+
+#: palettetoolbar.cpp:66
+msgid "System colors:"
+msgstr "Системные цвета:"
+
+#: palettetoolbar.cpp:69
+msgid ""
+"System colors\n"
+"\n"
+"Here you can select colors from the KDE icon palette"
+msgstr ""
+"Системные цвета\n"
+"\n"
+"Здесь вы можете выбрать цвета из палитры KDE для пиктограмм."
+
+#: palettetoolbar.cpp:79
+msgid "Custom colors:"
+msgstr "Собственные цвета:"
+
+#: palettetoolbar.cpp:82
+msgid ""
+"Custom colors\n"
+"\n"
+"Here you can build a palette of custom colors.\n"
+"Double-click on a box to edit the color"
+msgstr ""
+"Собственные цвета\n"
+"\n"
+"Здесь вы можете создать собственную палитру цветов.\n"
+"Дважды щёлкните на ячейке для изменения цвета"
+
+#. i18n: file: kiconeditui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:7
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6
+#, fuzzy
+msgid "&Edit"
+msgstr "&Изменить..."
+
+#. i18n: file: kiconeditui.rc:13
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:9
+msgid "&Tools"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:30
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:12
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:35
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:15
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "Палитра"
+
+#. i18n: file: kiconeditui.rc:45
+#. i18n: ectx: ToolBar (toolsToolBar)
+#: rc.cpp:18
+msgid "Tools Toolbar"
+msgstr "Инструменты"
+
+#. i18n: file: kiconeditui.rc:63
+#. i18n: ectx: ToolBar (paletteToolBar)
+#: rc.cpp:21
+msgid "Pallette Toolbar"
+msgstr "Палитра"
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Андрей Черепанов"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sibskull@mail.ru"
+
+#: kicongrid.h:62
+msgid "Drawed Something"
+msgstr ""

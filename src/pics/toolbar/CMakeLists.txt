@@ -1,0 +1,24 @@
+install(FILES
+   aim-cursor.xpm
+   aim.png
+   airbrush-cursor.xpm
+   colorpicker-cursor.xpm
+   draw-circle.png
+   draw-circle-filled.png
+   draw-ellipse.png
+   draw-ellipse-filled.png
+   draw-line.png
+   draw-rectangle.png
+   draw-rectangle-filled.png
+   eraser-cursor.xpm
+   fill-cursor.xpm
+   grayscale.png
+   kdepalette.png
+   paintbrush-cursor.xpm
+   pointer.png
+   select-area.png
+   select-circle.png
+   select-rectangular.png
+   show-grid.png
+   transform-scale.png
+   DESTINATION ${DATA_INSTALL_DIR}/kiconedit/pics)

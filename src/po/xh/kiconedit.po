@@ -1,0 +1,974 @@
+# translation of kiconedit.po to
+# translation of kiconedit.po to Xhosa
+# translation of kiconedit.po to
+# translation of kiconedit.po to
+# K Desktop Environment - kdegraphics
+# Copyright (C) 2001 translate.org.za
+# Antoinette Dekeni <antoinette@transalate.org.za>, 2001.
+# Lwandle Mgidlana <lwandle@translate.org.za>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kiconedit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-12-22 06:15+0100\n"
+"PO-Revision-Date: 2002-10-01 16:16SAST\n"
+"Last-Translator: Lwandle Mgidlana <lwandle@translate.org.za>\n"
+"Language-Team: Xhosa <xhosa@translate.org.za>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0beta2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: kiconconfig.cpp:66
+#, fuzzy
+msgid "Icon Template"
+msgstr "i Icon Templates"
+
+#: kiconconfig.cpp:72
+msgid "Template"
+msgstr "Itemplate"
+
+#: kiconconfig.cpp:82
+msgid "Description:"
+msgstr "Uchazo:"
+
+#: kiconconfig.cpp:87
+msgid "Path:"
+msgstr "Umendo:"
+
+#: kiconconfig.cpp:133 knew.cpp:203
+msgid "Templates"
+msgstr "Templates"
+
+#: kiconconfig.cpp:155
+msgid "&Add..."
+msgstr "&Dibanisa..."
+
+#: kiconconfig.cpp:158
+msgid "&Edit..."
+msgstr "&Hlela..."
+
+#: kiconconfig.cpp:162
+msgid "&Remove"
+msgstr ""
+
+#: kiconconfig.cpp:259
+#, fuzzy
+msgid "Select Background"
+msgstr "Isiqalo"
+
+#: kiconconfig.cpp:280
+#, fuzzy
+msgid "Use co&lor"
+msgstr "Indlela yokusebenza yemibala:"
+
+#: kiconconfig.cpp:284
+msgid "Use pix&map"
+msgstr ""
+
+#: kiconconfig.cpp:297
+msgid "Choose..."
+msgstr ""
+
+#: kiconconfig.cpp:300
+msgid "Preview"
+msgstr ""
+
+#: kiconconfig.cpp:381
+msgid "Only local files are supported yet."
+msgstr "Zifayile zobulali kuphela ezixhaswayo."
+
+#: kiconconfig.cpp:403
+#, fuzzy
+msgid "Paste &transparent pixels"
+msgstr "Cola ipixels ezibonisa ngaphaya"
+
+#: kiconconfig.cpp:407
+#, fuzzy
+msgid "Show &rulers"
+msgstr "Bonisa abalawuli"
+
+#: kiconconfig.cpp:411
+msgid "Transparency Display"
+msgstr ""
+
+#: kiconconfig.cpp:424
+msgid "&Solid color:"
+msgstr ""
+
+#: kiconconfig.cpp:434
+msgid "Checker&board"
+msgstr ""
+
+#: kiconconfig.cpp:445
+msgid "Small"
+msgstr ""
+
+#: kiconconfig.cpp:446
+msgid "Medium"
+msgstr ""
+
+#: kiconconfig.cpp:447
+msgid "Large"
+msgstr ""
+
+#: kiconconfig.cpp:450
+#, fuzzy
+msgid "Si&ze:"
+msgstr "Ubungakanani"
+
+#: kiconconfig.cpp:456
+#, fuzzy
+msgid "Color &1:"
+msgstr "Imibala: %1"
+
+#: kiconconfig.cpp:462
+#, fuzzy
+msgid "Color &2:"
+msgstr "Imibala: %1"
+
+#: kiconconfig.cpp:557
+msgid "Configure"
+msgstr ""
+
+#: kiconconfig.cpp:563
+msgid "Icon Templates"
+msgstr "i Icon Templates"
+
+#: kiconconfig.cpp:569
+msgid "Background"
+msgstr "Isiqalo"
+
+#: kiconconfig.cpp:575
+msgid "Icon Grid"
+msgstr "IIcon Grid"
+
+#: kiconedit.cpp:143 kiconeditslots.cpp:131
+msgid "Untitled"
+msgstr ""
+
+#: kiconedit.cpp:177 kiconeditslots.cpp:89 kiconeditslots.cpp:144
+#: kiconeditslots.cpp:288
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Ifayile yangoku iguqulwe kancinane.\n"
+"Ufuna ukuyigcina?"
+
+#: kiconedit.cpp:253
+msgid "New &Window"
+msgstr "Entsha &Window"
+
+#: kiconedit.cpp:256
+#, fuzzy
+msgid ""
+"New window\n"
+"\n"
+"Opens a new icon editor window."
+msgstr ""
+"Iwindow entsha\n"
+"\n"
+"Ivula iwindow yoMhleli we icon entsha."
+
+#: kiconedit.cpp:259
+msgid ""
+"New\n"
+"\n"
+"Create a new icon, either from a template or by specifying the size"
+msgstr ""
+"Entsha\n"
+"\n"
+"Yenza i icon entsha, noba kwi template okanye ngokukhankanya ubungakanani"
+
+#: kiconedit.cpp:263
+msgid ""
+"Open\n"
+"\n"
+"Open an existing icon"
+msgstr ""
+"Vula\n"
+"\n"
+"Vula i icon ekhoyo"
+
+#: kiconedit.cpp:271
+msgid ""
+"Save\n"
+"\n"
+"Save the current icon"
+msgstr ""
+"Gcina\n"
+"\n"
+"Gcina i icon yangoku"
+
+#: kiconedit.cpp:276
+msgid ""
+"Print\n"
+"\n"
+"Opens a print dialog to let you print the current icon."
+msgstr ""
+"Shicilela\n"
+"\n"
+"Ivula ushicilelo lwencoko yababini ukukuvumela ushicilele i icon yangoku. "
+"(Ayisebenzi ngokulindelekileyo"
+
+#: kiconedit.cpp:284
+#, fuzzy
+msgid ""
+"Cut\n"
+"\n"
+"Cut the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"Sika\n"
+"\n"
+"Sika ukhetho lwangoku ngandle kwe icon\n"
+"\n"
+"(Incam: Ungenza zombini uxande okanye isangqa seenketho)"
+
+#: kiconedit.cpp:288
+#, fuzzy
+msgid ""
+"Copy\n"
+"\n"
+"Copy the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"Khuphela\n"
+"\n"
+"Khuphela ukhetho lwangoku ngaphandle kwe icon\n"
+"\n"
+"(Incam; Ungenza zombini uxande nesangqa seenketho)"
+
+#: kiconedit.cpp:292
+msgid ""
+"Paste\n"
+"\n"
+"Paste the contents of the clipboard into the current icon.\n"
+"\n"
+"If the contents are larger than the current icon you can paste them in a new "
+"window.\n"
+"\n"
+"(Tip: Select \"Paste transparent pixels\" in the configuration dialog if you "
+"also want to paste transparency.)"
+msgstr ""
+"Cola\n"
+"\n"
+"Cola imixholo yebhodi eqhotyoshwayo kwi icon yangoku.\n"
+"\n"
+"Ukuba imixholo inkulu kune icon yangoku ungayicola kwi window entsha.\n"
+"\n"
+"(Incam: Khetha \"Cola ipixels ezibonisa ngaphaya\" kwincoko yababini "
+"yoqwalaselo ukuba ufuna kwakhona ukucola okubonisa ngaphaya.)"
+
+#: kiconedit.cpp:300
+msgid "Paste as &New"
+msgstr "Cola njenge &ntsha"
+
+#: kiconedit.cpp:309
+#, fuzzy
+msgid "Resi&ze..."
+msgstr "&Yenza ubungakanani kwakhona"
+
+#: kiconedit.cpp:312
+msgid ""
+"Resize\n"
+"\n"
+"Smoothly resizes the icon while trying to preserve the contents"
+msgstr ""
+"Yenza ubungakanani kwakhona\n"
+"\n"
+"Yenza ubungakanani mpuluswa kwakhona i icon ngexesha izama ukugcina "
+"khuselekileyo imixholo"
+
+#: kiconedit.cpp:317
+msgid "&GrayScale"
+msgstr "&Isikali esingwevu"
+
+#: kiconedit.cpp:320
+msgid ""
+"Gray scale\n"
+"\n"
+"Gray scale the current icon.\n"
+"(Warning: The result is likely to contain colors not in the icon palette"
+msgstr ""
+"Isikali esingwevu\n"
+"\n"
+"Isikali esingwevu i icon yangoku.\n"
+"(Isilumkiso: Isiphumo sifuna ukuqulatha imibala hayi kwiplanga elimcambalala "
+"le icon"
+
+#: kiconedit.cpp:327
+msgid ""
+"Zoom in\n"
+"\n"
+"Zoom in by one."
+msgstr ""
+"Zoom in\n"
+"\n"
+"Ingxolo enkulu kwenye."
+
+#: kiconedit.cpp:331
+msgid ""
+"Zoom out\n"
+"\n"
+"Zoom out by one."
+msgstr ""
+"Ingxolo enkulu\n"
+"\n"
+"Ingxolo enkulu ephuma nganye."
+
+#: kiconedit.cpp:335
+msgid "&Zoom"
+msgstr ""
+
+#: kiconedit.cpp:339
+msgid "100%"
+msgstr ""
+
+#: kiconedit.cpp:345
+msgid "200%"
+msgstr ""
+
+#: kiconedit.cpp:351
+msgid "500%"
+msgstr ""
+
+#: kiconedit.cpp:357
+msgid "1000%"
+msgstr ""
+
+#: kiconedit.cpp:377
+msgid "Show &Grid"
+msgstr "Bonisa &Indibaniso enamandla ombane"
+
+#: kiconedit.cpp:380
+#, fuzzy
+msgid "Hide &Grid"
+msgstr "Bonisa &Indibaniso enamandla ombane"
+
+#: kiconedit.cpp:381
+#, fuzzy
+msgid ""
+"Show grid\n"
+"\n"
+"Toggles the grid in the icon edit grid on/off"
+msgstr ""
+"Qhobosha udibaniso olunamandla lombane\n"
+"\n"
+"Iqhobosha udibaniso olunamandla lombane kuhlelo lwe icon layita/cima"
+
+#: kiconedit.cpp:388
+#, fuzzy
+msgid "Color Picker"
+msgstr "Isiqalo esinombala"
+
+#: kiconedit.cpp:392
+#, fuzzy
+msgid ""
+"Color Picker\n"
+"\n"
+"The color of the pixel clicked on will be the current draw color"
+msgstr ""
+"Fumana\n"
+"\n"
+"Umbala we pixel enqakraziweyo izakuba ngumbala wangoku womzobo"
+
+#: kiconedit.cpp:397
+msgid "Freehand"
+msgstr "Isandla esikhululekileyo"
+
+#: kiconedit.cpp:401
+msgid ""
+"Free hand\n"
+"\n"
+"Draw non-linear lines"
+msgstr ""
+"Isandla esikhululekileyo\n"
+"\n"
+"Zoba iilayini ezinga-ndanga"
+
+#: kiconedit.cpp:408
+msgid "Rectangle"
+msgstr "Uxande"
+
+#: kiconedit.cpp:412
+msgid ""
+"Rectangle\n"
+"\n"
+"Draw a rectangle"
+msgstr ""
+"Uxande\n"
+"\n"
+"Zoba uxande"
+
+#: kiconedit.cpp:416
+msgid "Filled Rectangle"
+msgstr "Uxande Okugcwalisiweyo"
+
+#: kiconedit.cpp:420
+msgid ""
+"Filled rectangle\n"
+"\n"
+"Draw a filled rectangle"
+msgstr ""
+"Uxande olugcwalisiweyo\n"
+"\n"
+"Zoba uxande olugcwalisiweyo"
+
+#: kiconedit.cpp:424
+msgid "Circle"
+msgstr "Isangqa"
+
+#: kiconedit.cpp:428
+msgid ""
+"Circle\n"
+"\n"
+"Draw a circle"
+msgstr ""
+"Isangqa\n"
+"\n"
+"Zoba isangqa"
+
+#: kiconedit.cpp:432
+msgid "Filled Circle"
+msgstr "Isangqa Esigcwalisiweyo"
+
+#: kiconedit.cpp:436
+msgid ""
+"Filled circle\n"
+"\n"
+"Draw a filled circle"
+msgstr ""
+"Isangqa esigcwalisiweyo\n"
+"\n"
+"Zoba isangqa esigwalisiweyo"
+
+#: kiconedit.cpp:440
+msgid "Ellipse"
+msgstr "Okumilise okweqanda"
+
+#: kiconedit.cpp:444
+msgid ""
+"Ellipse\n"
+"\n"
+"Draw an ellipse"
+msgstr ""
+"Okumilise okweqanda\n"
+"\n"
+"Zoba okumilise okweqanda"
+
+#: kiconedit.cpp:448
+msgid "Filled Ellipse"
+msgstr "Okumilise Okweqanda Okugcwalisiweyo"
+
+#: kiconedit.cpp:452
+msgid ""
+"Filled ellipse\n"
+"\n"
+"Draw a filled ellipse"
+msgstr ""
+"Okumilise okweqanda okugcwalisiweyo\n"
+"\n"
+"Zoba okumilise okweqanda okugcwalisiweyo"
+
+#: kiconedit.cpp:456
+msgid "Spray"
+msgstr "Fefeza"
+
+#: kiconedit.cpp:460
+msgid ""
+"Spray\n"
+"\n"
+"Draw scattered pixels in the current color"
+msgstr ""
+"Fefeza\n"
+"\n"
+"Zoba ipixels ezithe sa kumbala wangoku"
+
+#: kiconedit.cpp:465
+msgid "Flood Fill"
+msgstr "Ugcwaliso Lokuzala Komlambo"
+
+#: kiconedit.cpp:469
+msgid ""
+"Flood fill\n"
+"\n"
+"Fill adjoining pixels with the same color with the current color"
+msgstr ""
+"Ugcwaliso lokuzala komlambo\n"
+"\n"
+"Gcwalisa ipixels ezidibeneyo ngombala omnye wombala wangoku"
+
+#: kiconedit.cpp:474
+msgid "Line"
+msgstr "Ilayini"
+
+#: kiconedit.cpp:478
+msgid ""
+"Line\n"
+"\n"
+"Draw a straight line vertically, horizontally or at 45 deg. angles"
+msgstr ""
+"Ilayini\n"
+"\n"
+"Zoba ilayini ethe nkqo, tye okanye kwi 45 amaqo. iikona"
+
+#: kiconedit.cpp:483
+msgid "Eraser (Transparent)"
+msgstr "Umcimi (Obonisa ngaphaya)"
+
+#: kiconedit.cpp:487
+msgid ""
+"Erase\n"
+"\n"
+"Erase pixels. Set the pixels to be transparent\n"
+"\n"
+"(Tip: If you want to draw transparency with a different tool, first click on "
+"\"Erase\" then on the tool you want to use)"
+msgstr ""
+"Cima\n"
+"\n"
+"Cima ipixels. Cwangcisa ipixels zibonise ngaphaya\n"
+"\n"
+"(Incam: Ukuba ufuna ukuzoba okubonisa ngaphaya ngesixhobo esahlukileyo, "
+"nqakraza kuqala ku \"Cima\" nakwisixhobo ofuna ukusisebenzisa)"
+
+#: kiconedit.cpp:494
+msgid "Rectangular Selection"
+msgstr "Ukhetho Olubuxande"
+
+#: kiconedit.cpp:498
+msgid ""
+"Select\n"
+"\n"
+"Select a rectangular section of the icon using the mouse."
+msgstr ""
+"Khetha\n"
+"\n"
+"khetha ukhetho olubuxande kwicala lwe icon usebenzisa i imouse."
+
+#: kiconedit.cpp:503
+msgid "Circular Selection"
+msgstr "Ujikiso Ukhetho"
+
+#: kiconedit.cpp:507
+msgid ""
+"Select\n"
+"\n"
+"Select a circular section of the icon using the mouse."
+msgstr ""
+"Ukhetho\n"
+"\n"
+"khetha icandelo elijekelezayo lwe icon usebenzise i mouse."
+
+#: kiconedit.cpp:535
+#, fuzzy
+msgid ""
+"Statusbar\n"
+"\n"
+"The statusbar gives information on the status of the current icon. The "
+"fields are:\n"
+"\n"
+"\t- Application messages\n"
+"\t- Cursor position\n"
+"\t- Size\n"
+"\t- Zoom factor\n"
+"\t- Number of colors"
+msgstr ""
+"Ibar yendawo engatshintshiyo\n"
+"\n"
+"Ibar yendawo engatshintshiyo inika ulwazi kwindawo engatshintshiyo ye icon "
+"yangoku. Imi hlaba yi:\n"
+"\n"
+"\t- Indawo yesalathisi\n"
+"\t- Ubungakanani\n"
+"\t- Impembeleo yengxolo enkulu\n"
+"\t- Inani lemibala\n"
+"\t- Imiyalezo yesicelo"
+
+#: kiconedit.cpp:544 kiconeditslots.cpp:451 kiconeditslots.cpp:457
+#, kde-format
+msgid "Colors: %1"
+msgstr "Imibala: %1"
+
+#: kiconediticon.cpp:71
+#, kde-format
+msgid ""
+"The URL: %1 \n"
+"seems to be malformed.\n"
+msgstr ""
+"I URL: %1 \n"
+"ikhangeleka njengemalifomiweyo.\n"
+
+#: kiconediticon.cpp:87 kiconediticon.cpp:102
+#, fuzzy, kde-format
+msgid ""
+"There was an error loading:\n"
+"%1\n"
+msgstr ""
+"Bekukho impazamo egcina:\n"
+"%1\n"
+
+#: kiconediticon.cpp:176
+msgid "Save Icon As"
+msgstr "Gcina i Icon Njenge"
+
+#: kiconediticon.cpp:211
+#, kde-format
+msgid "A file named \"%1\" already exists. Overwrite it?"
+msgstr ""
+
+#: kiconediticon.cpp:213
+msgid "Overwrite File?"
+msgstr ""
+
+#: kiconediticon.cpp:214
+msgid "&Overwrite"
+msgstr ""
+
+#: kiconediticon.cpp:277
+#, kde-format
+msgid ""
+"There was an error saving:\n"
+"%1\n"
+msgstr ""
+"Bekukho impazamo egcina:\n"
+"%1\n"
+
+#: kiconeditslots.cpp:204
+#, kde-format
+msgid "Print %1"
+msgstr ""
+
+#: kiconeditslots.cpp:430
+#, kde-format
+msgctxt "Status Position"
+msgid "%1, %2"
+msgstr ""
+": Indawo engatshintshiyo\n"
+"%1, %2"
+
+#: kiconeditslots.cpp:436
+#, kde-format
+msgctxt "Status Size"
+msgid "%1 x %2"
+msgstr ""
+": Ubungakanani obungatshintshiyo\n"
+"%1 x %2"
+
+#: kiconeditslots.cpp:476
+msgid "modified"
+msgstr ""
+
+#: kicongrid.cpp:100
+msgid ""
+"Icon draw grid\n"
+"\n"
+"The icon grid is the area where you draw the icons.\n"
+"You can zoom in and out using the magnifying glasses on the toolbar.\n"
+"(Tip: Hold the magnify button down for a few seconds to zoom to a predefined "
+"scale)"
+msgstr ""
+"i Icon izoba udibaniso olunamandla lombane\n"
+"\n"
+"Udibaniso olunamandla lombane lwe icon yi ariya apho uzoba khona ii icon.\n"
+"Ungenza ingxolo enkulu ngaphakathi nangaphandle usebenzisa iglasi ezenza "
+"nkulu kwibar yesixhobo.\n"
+"(Incam: Bamba iqhosha lokwenza nkulu phantsi imizuzwana embalwa ukungxolisa "
+"kwesichazwe kuqala isikali)"
+
+#: kicongrid.cpp:128
+msgid "width"
+msgstr "ububanzi"
+
+#: kicongrid.cpp:133
+msgid "height"
+msgstr "ubude"
+
+#: kicongrid.cpp:137
+msgid ""
+"Rulers\n"
+"\n"
+"This is a visual representation of the current cursor position"
+msgstr ""
+"Abalawuli\n"
+"\n"
+"Oku lumelo olubonakalayo lwendawo yangoku yesalathisi"
+
+#: kicongrid.cpp:831
+#, fuzzy
+msgid "Free Hand"
+msgstr "Isandla esikhululekileyo"
+
+#: kicongrid.cpp:1035
+msgid "There was an error loading a blank image.\n"
+msgstr "Bekukho impazamo elayisha umfanekiso ongenanto.\n"
+
+#: kicongrid.cpp:1167
+msgid "All selected"
+msgstr "Zonke zikhethiwe"
+
+#: kicongrid.cpp:1178
+msgid "Cleared"
+msgstr "Zicacisiwe"
+
+#: kicongrid.cpp:1219
+msgid "Selected area cut"
+msgstr "I ariya ekhethiweyo isikiwe"
+
+#: kicongrid.cpp:1223
+msgid "Selected area copied"
+msgstr "I ariya ekhethiweyo ikhutshelwe"
+
+#: kicongrid.cpp:1248
+msgid ""
+"The clipboard image is larger than the current image!\n"
+"Paste as new image?"
+msgstr ""
+"Umfanekiso webhodi eqhotyoshwayo mkhulu kunomfanekiso wangoku!\n"
+"Cola njengomfanekiso omtsha?"
+
+#: kicongrid.cpp:1249
+#, fuzzy
+msgid "Paste"
+msgstr "Umendo:"
+
+#: kicongrid.cpp:1249
+msgid "Do Not Paste"
+msgstr ""
+
+#: kicongrid.cpp:1368 kicongrid.cpp:1402
+msgid "Done pasting"
+msgstr "Ucolo lwenziwe"
+
+#: kicongrid.cpp:1373 kicongrid.cpp:1408
+#, fuzzy
+msgid "Invalid pixmap data in clipboard.\n"
+msgstr "Idata ye pixmap engasebenziyo kwibhodi eqhotyoshwayo!\n"
+
+#: kicongrid.cpp:1915
+msgid "Drawn Array"
+msgstr ""
+
+#: knew.cpp:49
+msgid "Standard File"
+msgstr "Ifayile Esezantsi"
+
+#: knew.cpp:53
+msgid "Source File"
+msgstr "Imvelaphi Yefayile"
+
+#: knew.cpp:57
+msgid "Compressed File"
+msgstr "Ifayile Edityaniswe kunye"
+
+#: knew.cpp:61
+msgid "Standard Folder"
+msgstr "Incwadi eneenkcukacha Esezantsi"
+
+#: knew.cpp:65
+msgid "Standard Package"
+msgstr "Upakisho Olusezantsi"
+
+#: knew.cpp:69
+msgid "Mini Folder"
+msgstr "Incwadi encinane Eneenkcukacha"
+
+#: knew.cpp:73
+msgid "Mini Package"
+msgstr "Upakisho Oluncinane"
+
+#: knew.cpp:172
+msgid "Create from scratch"
+msgstr "Yenza ukusuka ekuqaleni"
+
+#: knew.cpp:176
+msgid "Create from template"
+msgstr "Yenza ukusuka kwi template"
+
+#: knew.cpp:235
+msgid "Create New Icon"
+msgstr "Yenzai I icon Entsha"
+
+#: knew.cpp:256
+msgid "Select Icon Type"
+msgstr "Khetha Udidi lwe Icon"
+
+#: knew.cpp:257 knew.cpp:297
+msgid "Create From Scratch"
+msgstr "Yenza Ukusuka Ekuqaleni"
+
+#: knew.cpp:303
+msgid "Create From Template"
+msgstr "Yenza Ukusuka kwi Template"
+
+#: kresize.cpp:35
+msgid "Size"
+msgstr "Ubungakanani"
+
+#: kresize.cpp:70
+msgid "Select Size"
+msgstr "Khetha Ubungakanani"
+
+#: main.cpp:35
+msgid "KDE Icon Editor"
+msgstr "KDE Umhleli we Icon"
+
+#: main.cpp:39
+msgid "KIconEdit"
+msgstr "KIconEdit"
+
+#: main.cpp:41
+msgid "(c) 1998, Thomas Tanghus"
+msgstr ""
+
+#: main.cpp:43
+msgid "Thomas Tanghus"
+msgstr ""
+
+#: main.cpp:44
+msgid "John Califf"
+msgstr ""
+
+#: main.cpp:45
+msgid "Laurent Montel"
+msgstr ""
+
+#: main.cpp:46
+msgid "Aaron J. Seigo"
+msgstr ""
+
+#: main.cpp:47
+msgid "Nadeem Hasan"
+msgstr ""
+
+#: main.cpp:47
+msgid ""
+"Rewrote UI to use XMLGUI\n"
+"Lots of fixes and cleanup"
+msgstr ""
+
+#: main.cpp:49
+#, fuzzy
+#| msgid "Mini Package"
+msgid "Adrian Page"
+msgstr "Upakisho Oluncinane"
+
+#: main.cpp:49
+msgid "Bug fixes and GUI tidy up"
+msgstr ""
+
+#: main.cpp:54
+msgid "Icon file(s) to open"
+msgstr "Ifayile(ii) ye Icon izakuvula"
+
+#: palettetoolbar.cpp:53
+msgid ""
+"Preview\n"
+"\n"
+"This is a 1:1 preview of the current icon"
+msgstr ""
+"Imboniso\n"
+"\n"
+"Le yi 1:1 yemboniso ye icon yangoku"
+
+#: palettetoolbar.cpp:61
+msgid ""
+"Current color\n"
+"\n"
+"This is the currently selected color"
+msgstr ""
+
+#: palettetoolbar.cpp:66
+msgid "System colors:"
+msgstr "Indlela yokusebenza yemibala:"
+
+#: palettetoolbar.cpp:69
+#, fuzzy
+msgid ""
+"System colors\n"
+"\n"
+"Here you can select colors from the KDE icon palette"
+msgstr ""
+"Imibala yendlela\n"
+"\n"
+"Apha ungakhetha imibala kwiplanga elimcambalala le Icon ye KDE"
+
+#: palettetoolbar.cpp:79
+msgid "Custom colors:"
+msgstr "Imibala yesiko:"
+
+#: palettetoolbar.cpp:82
+msgid ""
+"Custom colors\n"
+"\n"
+"Here you can build a palette of custom colors.\n"
+"Double-click on a box to edit the color"
+msgstr ""
+"Imibala yesiko\n"
+"\n"
+"Apha ungakha iplanga elimcambalala lemibala yesiko.\n"
+"Nqakraza-kabini kwibhokisi ukuhlela umbala"
+
+#. i18n: file: kiconeditui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:7
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6
+#, fuzzy
+msgid "&Edit"
+msgstr "&Hlela..."
+
+#. i18n: file: kiconeditui.rc:13
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:9
+msgid "&Tools"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:30
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:12
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:35
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:15
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "Incwadi encinane Eneenkcukacha"
+
+#. i18n: file: kiconeditui.rc:45
+#. i18n: ectx: ToolBar (toolsToolBar)
+#: rc.cpp:18
+msgid "Tools Toolbar"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:63
+#. i18n: ectx: ToolBar (paletteToolBar)
+#: rc.cpp:21
+msgid "Pallette Toolbar"
+msgstr ""
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Lwandle Mgidlana"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lwandle@translate.org.za"
+
+#: kicongrid.h:62
+msgid "Drawed Something"
+msgstr ""

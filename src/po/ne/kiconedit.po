@@ -1,0 +1,944 @@
+# translation of kiconedit.po to Nepali
+# shyam krishna ball <shyamkrishna_bal@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kiconedit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-12-22 06:15+0100\n"
+"PO-Revision-Date: 2007-08-19 14:47+0545\n"
+"Last-Translator: Nabin Gautam <nabin@mpp.org.np>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n !=1\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: kiconconfig.cpp:66
+msgid "Icon Template"
+msgstr "प्रतिमा टेम्प्लेट"
+
+#: kiconconfig.cpp:72
+msgid "Template"
+msgstr "टेम्प्लेट"
+
+#: kiconconfig.cpp:82
+msgid "Description:"
+msgstr "वर्णन:"
+
+#: kiconconfig.cpp:87
+msgid "Path:"
+msgstr "बाटो:"
+
+#: kiconconfig.cpp:133 knew.cpp:203
+msgid "Templates"
+msgstr "टेम्प्लेटहरू"
+
+#: kiconconfig.cpp:155
+msgid "&Add..."
+msgstr "थप्नुहोस्..."
+
+#: kiconconfig.cpp:158
+msgid "&Edit..."
+msgstr "सम्पादन..."
+
+#: kiconconfig.cpp:162
+msgid "&Remove"
+msgstr "हटाउनुहोस्"
+
+#: kiconconfig.cpp:259
+msgid "Select Background"
+msgstr "पृष्ठभूमि चयन गर्नुहोस्"
+
+#: kiconconfig.cpp:280
+msgid "Use co&lor"
+msgstr "रङ प्रयोग गर्नुहोस्"
+
+#: kiconconfig.cpp:284
+msgid "Use pix&map"
+msgstr "पिक्सम्याप प्रयोग गर्नुहोस्"
+
+#: kiconconfig.cpp:297
+msgid "Choose..."
+msgstr "रोज्नुहोस्..."
+
+#: kiconconfig.cpp:300
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: kiconconfig.cpp:381
+msgid "Only local files are supported yet."
+msgstr "अहिले सम्म स्थानि फाइलहरू मात्र समर्थन गरेका छन् ।"
+
+#: kiconconfig.cpp:403
+msgid "Paste &transparent pixels"
+msgstr "पारदर्शी पिक्सेल टाँस्नुहोस्"
+
+#: kiconconfig.cpp:407
+msgid "Show &rulers"
+msgstr "रूलर देखाउनुहोस्"
+
+#: kiconconfig.cpp:411
+msgid "Transparency Display"
+msgstr "पारदर्शीता प्रदर्शन"
+
+#: kiconconfig.cpp:424
+msgid "&Solid color:"
+msgstr "ठोस रङ:"
+
+#: kiconconfig.cpp:434
+msgid "Checker&board"
+msgstr "चेकरबोर्ड"
+
+#: kiconconfig.cpp:445
+msgid "Small"
+msgstr "सानो"
+
+#: kiconconfig.cpp:446
+msgid "Medium"
+msgstr "मध्यम"
+
+#: kiconconfig.cpp:447
+msgid "Large"
+msgstr "ठूलो"
+
+#: kiconconfig.cpp:450
+msgid "Si&ze:"
+msgstr "साइज:"
+
+#: kiconconfig.cpp:456
+msgid "Color &1:"
+msgstr "रङ १:"
+
+#: kiconconfig.cpp:462
+msgid "Color &2:"
+msgstr "रङ २:"
+
+#: kiconconfig.cpp:557
+msgid "Configure"
+msgstr "कन्फिगर गर्नुहोस्"
+
+#: kiconconfig.cpp:563
+msgid "Icon Templates"
+msgstr "प्रतिमा टेम्प्लेट"
+
+#: kiconconfig.cpp:569
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#: kiconconfig.cpp:575
+msgid "Icon Grid"
+msgstr "प्रतिमा ग्रिड"
+
+#: kiconedit.cpp:143 kiconeditslots.cpp:131
+msgid "Untitled"
+msgstr ""
+
+#: kiconedit.cpp:177 kiconeditslots.cpp:89 kiconeditslots.cpp:144
+#: kiconeditslots.cpp:288
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"हालको फाइल परिमार्जन गरिएको छ ।\n"
+"यसलाई तपाईँ बचत गर्न चाहनुहुन्छ?"
+
+#: kiconedit.cpp:253
+msgid "New &Window"
+msgstr "नयाँ सञ्झ्याल"
+
+#: kiconedit.cpp:256
+msgid ""
+"New window\n"
+"\n"
+"Opens a new icon editor window."
+msgstr ""
+"नयाँ सञ्झ्याल\n"
+"\n"
+"ले नयाँ प्रतिमा सम्पादक सञ्झ्याल खोल्दछ ।"
+
+#: kiconedit.cpp:259
+msgid ""
+"New\n"
+"\n"
+"Create a new icon, either from a template or by specifying the size"
+msgstr ""
+"नयाँ\n"
+"\n"
+"या त टेम्प्लेटबाट वा साइज निर्दिष्ट गरेर, नयाँ प्रतिमा सिर्जना गर्नुहोस्"
+
+#: kiconedit.cpp:263
+msgid ""
+"Open\n"
+"\n"
+"Open an existing icon"
+msgstr ""
+"खोल्नुहोस्\n"
+"\n"
+"एउटा अवस्थित प्रतिमा खोल्नुहोस्"
+
+#: kiconedit.cpp:271
+msgid ""
+"Save\n"
+"\n"
+"Save the current icon"
+msgstr ""
+"बचत गर्नुहोस्\n"
+"\n"
+"हालको प्रतिमा बचत गर्नुहोस्"
+
+#: kiconedit.cpp:276
+msgid ""
+"Print\n"
+"\n"
+"Opens a print dialog to let you print the current icon."
+msgstr ""
+"मुद्रण गर्नुहोस्\n"
+"\n"
+"तपाईँलाई हालको प्रतिमा मुद्रण गर्न दिन मुद्रण संवाद खोल्दछ ।"
+
+#: kiconedit.cpp:284
+msgid ""
+"Cut\n"
+"\n"
+"Cut the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"काट्नुहोस्\n"
+"\n"
+"प्रतिमा बाहिरको हालको चयन काट्नुहोस् ।\n"
+"\n"
+"(टिप: तपाईँ दुवै आयातकार र वृत्तकार चयनहरू बनाउन सक्नुहुन्छ)"
+
+#: kiconedit.cpp:288
+msgid ""
+"Copy\n"
+"\n"
+"Copy the current selection out of the icon.\n"
+"\n"
+"(Tip: You can make both rectangular and circular selections)"
+msgstr ""
+"काट्नुहोस्\n"
+"\n"
+"प्रतिमा बाहिरको हालको चयन प्रतिलिपि गर्नुहोस् ।\n"
+"\n"
+"(टिप: तपाईँ दुवै आयातकार र वृत्तकार चयन बनाउन सक्नुहुन्छ)"
+
+#: kiconedit.cpp:292
+msgid ""
+"Paste\n"
+"\n"
+"Paste the contents of the clipboard into the current icon.\n"
+"\n"
+"If the contents are larger than the current icon you can paste them in a new "
+"window.\n"
+"\n"
+"(Tip: Select \"Paste transparent pixels\" in the configuration dialog if you "
+"also want to paste transparency.)"
+msgstr ""
+"टाँस्नुहोस्\n"
+"\n"
+"हालको प्रतिमामा क्लिपबोर्डका सामग्री टाँस्नुहोस् ।\n"
+"\n"
+"यदि सामग्रीहरू हालको प्रतिमा भन्दा ठूला छन् भने तपाईँ त्यसलाई नयाँ सञ्झ्यालमा टाँस्न "
+"सक्नुहुन्छ ।\n"
+"\n"
+"(टिप: यदि तपाईँ पार्दर्शीता पनि टाँस्न चाहनुहुन्छ भने कन्फिगरेसन संवादमा \"पारदर्शी पिक्सेल "
+"टाँस्नुहोस्\" चयन गर्नुहोस् ।)"
+
+#: kiconedit.cpp:300
+msgid "Paste as &New"
+msgstr "नयाँको रूपमा टाँस्नुहोस्"
+
+#: kiconedit.cpp:309
+msgid "Resi&ze..."
+msgstr "रिसाइज गर्नुहोस्..."
+
+#: kiconedit.cpp:312
+msgid ""
+"Resize\n"
+"\n"
+"Smoothly resizes the icon while trying to preserve the contents"
+msgstr ""
+"रिसाइज\n"
+"\n"
+"सामग्रीहरू संरक्षण गर्ने प्रयास गर्दा महीन रूपमा प्रतिमा रिसाइज गर्दछ"
+
+#: kiconedit.cpp:317
+msgid "&GrayScale"
+msgstr "ग्रेस्केल"
+
+#: kiconedit.cpp:320
+msgid ""
+"Gray scale\n"
+"\n"
+"Gray scale the current icon.\n"
+"(Warning: The result is likely to contain colors not in the icon palette"
+msgstr ""
+"ग्रेस्केल\n"
+"\n"
+"हालको प्रतिमा ग्रेस्केल गर्नुहोस् ।\n"
+"(चेतावनी: नतिजा प्रतिमा रङदानीमा होइन रङ समाविष्ट गर्ने जस्तो देखिन्छ)"
+
+#: kiconedit.cpp:327
+msgid ""
+"Zoom in\n"
+"\n"
+"Zoom in by one."
+msgstr ""
+"जुम बढाउनुहोस्\n"
+"\n"
+"एउटाले जुम बढाउनुहोस् ।"
+
+#: kiconedit.cpp:331
+msgid ""
+"Zoom out\n"
+"\n"
+"Zoom out by one."
+msgstr ""
+"जुम घटाउनुहोस्\n"
+"\n"
+"एउटाले जुम घटाउनुहोस् ।"
+
+#: kiconedit.cpp:335
+msgid "&Zoom"
+msgstr ""
+
+#: kiconedit.cpp:339
+msgid "100%"
+msgstr "१००%"
+
+#: kiconedit.cpp:345
+msgid "200%"
+msgstr "२००%"
+
+#: kiconedit.cpp:351
+msgid "500%"
+msgstr "५००%"
+
+#: kiconedit.cpp:357
+msgid "1000%"
+msgstr "१०००%"
+
+#: kiconedit.cpp:377
+msgid "Show &Grid"
+msgstr "ग्रिड देखाउनुहोस्"
+
+#: kiconedit.cpp:380
+msgid "Hide &Grid"
+msgstr "ग्रिड लुकाउनुहोस्"
+
+#: kiconedit.cpp:381
+msgid ""
+"Show grid\n"
+"\n"
+"Toggles the grid in the icon edit grid on/off"
+msgstr ""
+"ग्रिड देखाउनुहोस्\n"
+"\n"
+"प्रतिमा सम्पादन ग्रिड खूल्ला/बन्दमा ग्रिड टगल गर्दछ"
+
+#: kiconedit.cpp:388
+msgid "Color Picker"
+msgstr "रङ पिकर"
+
+#: kiconedit.cpp:392
+msgid ""
+"Color Picker\n"
+"\n"
+"The color of the pixel clicked on will be the current draw color"
+msgstr ""
+"रङ पिकर\n"
+"\n"
+"पिक्सेलको रङ क्लिक गर्नाले हालको रङ कोर्नेछ"
+
+#: kiconedit.cpp:397
+msgid "Freehand"
+msgstr "फ्रिह्यान्ड"
+
+#: kiconedit.cpp:401
+msgid ""
+"Free hand\n"
+"\n"
+"Draw non-linear lines"
+msgstr ""
+"फ्रिह्यान्ड\n"
+"\n"
+"बक्र रेखाहरू कोर्नुहोस्"
+
+#: kiconedit.cpp:408
+msgid "Rectangle"
+msgstr "आयात"
+
+#: kiconedit.cpp:412
+msgid ""
+"Rectangle\n"
+"\n"
+"Draw a rectangle"
+msgstr ""
+"आयात\n"
+"\n"
+"आयात कोर्नुहोस्"
+
+#: kiconedit.cpp:416
+msgid "Filled Rectangle"
+msgstr "भरिएको आयात"
+
+#: kiconedit.cpp:420
+msgid ""
+"Filled rectangle\n"
+"\n"
+"Draw a filled rectangle"
+msgstr ""
+"भरिएको आयात\n"
+"\n"
+"भरिएको आयात कोर्नुहोस्"
+
+#: kiconedit.cpp:424
+msgid "Circle"
+msgstr "वृत्त"
+
+#: kiconedit.cpp:428
+msgid ""
+"Circle\n"
+"\n"
+"Draw a circle"
+msgstr ""
+"वृत्त\n"
+"\n"
+"वृत्त कोर्नुहोस्"
+
+#: kiconedit.cpp:432
+msgid "Filled Circle"
+msgstr "भरिएको वृत्त"
+
+#: kiconedit.cpp:436
+msgid ""
+"Filled circle\n"
+"\n"
+"Draw a filled circle"
+msgstr ""
+"भरिएको वृत्त\n"
+"\n"
+"भरिएको वृत्त कोर्नुहोस्"
+
+#: kiconedit.cpp:440
+msgid "Ellipse"
+msgstr "दीर्घवृत"
+
+#: kiconedit.cpp:444
+msgid ""
+"Ellipse\n"
+"\n"
+"Draw an ellipse"
+msgstr ""
+"दीर्घवृत्त\n"
+"\n"
+"एउटा दीर्घवृत्त कोर्नुहोस्"
+
+#: kiconedit.cpp:448
+msgid "Filled Ellipse"
+msgstr "भरिएको दीर्घवृत्त"
+
+#: kiconedit.cpp:452
+msgid ""
+"Filled ellipse\n"
+"\n"
+"Draw a filled ellipse"
+msgstr ""
+"भरिएको दीर्घवृत्त\n"
+"\n"
+"भरिएको दीर्घवृत्त कोर्नुहोस्"
+
+#: kiconedit.cpp:456
+msgid "Spray"
+msgstr "स्प्रे"
+
+#: kiconedit.cpp:460
+msgid ""
+"Spray\n"
+"\n"
+"Draw scattered pixels in the current color"
+msgstr ""
+"स्प्रे\n"
+"\n"
+"हालको रङमा छरिएको पिक्सेल कोर्नुहोस्"
+
+#: kiconedit.cpp:465
+msgid "Flood Fill"
+msgstr "जलमग्न भराई"
+
+#: kiconedit.cpp:469
+msgid ""
+"Flood fill\n"
+"\n"
+"Fill adjoining pixels with the same color with the current color"
+msgstr ""
+"जलमग्न भराई\n"
+"\n"
+"हालको रङसँग उस्तै रङमा जोडिएको पिक्सेल भर्नुहोस्"
+
+#: kiconedit.cpp:474
+msgid "Line"
+msgstr "रेखा"
+
+#: kiconedit.cpp:478
+msgid ""
+"Line\n"
+"\n"
+"Draw a straight line vertically, horizontally or at 45 deg. angles"
+msgstr ""
+"रेखा\n"
+"\n"
+"ठाडो, तेर्सो वा ४५ डिग्रीको कोणमा सीधा रेखा कोर्नुहोस्"
+
+#: kiconedit.cpp:483
+msgid "Eraser (Transparent)"
+msgstr "मेटाउने (पारदर्शी)"
+
+#: kiconedit.cpp:487
+msgid ""
+"Erase\n"
+"\n"
+"Erase pixels. Set the pixels to be transparent\n"
+"\n"
+"(Tip: If you want to draw transparency with a different tool, first click on "
+"\"Erase\" then on the tool you want to use)"
+msgstr ""
+"मेट्नुहोस्\n"
+"\n"
+"पिक्सेल मेट्नुहोस्होस् । पिक्सेल पारदर्शी हुन सेट गर्नुहोस्\n"
+"\n"
+"(टिप: यदि तपाईँ विभिन्न उपकरण सहित पारदर्शीता कोर्न चाहनुहुन्छ भने, पहिले \"मेट्नुहोस्\" "
+"मा क्लिक गर्नुहोस् त्यसपछि तपाईँले प्रयोग गर्ने उपकरणमा)"
+
+#: kiconedit.cpp:494
+msgid "Rectangular Selection"
+msgstr "आयातकार चयन"
+
+#: kiconedit.cpp:498
+msgid ""
+"Select\n"
+"\n"
+"Select a rectangular section of the icon using the mouse."
+msgstr ""
+"चयन गर्नुहोस्\n"
+"\n"
+"माउस प्रयोग गरेर प्रतिमाको आयातकार खण्ड चयन गर्नुहोस् ।"
+
+#: kiconedit.cpp:503
+msgid "Circular Selection"
+msgstr "वृत्तकार चयन"
+
+#: kiconedit.cpp:507
+msgid ""
+"Select\n"
+"\n"
+"Select a circular section of the icon using the mouse."
+msgstr ""
+"चयन गर्नुहोस्\n"
+"\n"
+"माउस प्रयोग गरेर प्रतिमाको वृत्तकार चयन चयन गर्नुहोस् ।"
+
+#: kiconedit.cpp:535
+msgid ""
+"Statusbar\n"
+"\n"
+"The statusbar gives information on the status of the current icon. The "
+"fields are:\n"
+"\n"
+"\t- Application messages\n"
+"\t- Cursor position\n"
+"\t- Size\n"
+"\t- Zoom factor\n"
+"\t- Number of colors"
+msgstr ""
+"वस्तुस्थितिपट्टी\n"
+"\n"
+"वस्तुस्थितिपट्टीले हालको प्रतिमाको वस्तुस्थितिमा सूचना दिन्छ । फाँटहरू निम्न छन्:\n"
+"\n"
+"\t- अनुप्रयोग सन्देश\n"
+"\t- कर्सर स्थिति\n"
+"\t- साइज\n"
+"\t- जुम तत्व\n"
+"\t- रङका सङ्ख्या"
+
+#: kiconedit.cpp:544 kiconeditslots.cpp:451 kiconeditslots.cpp:457
+#, kde-format
+msgid "Colors: %1"
+msgstr "रङ: %1"
+
+#: kiconediticon.cpp:71
+#, kde-format
+msgid ""
+"The URL: %1 \n"
+"seems to be malformed.\n"
+msgstr ""
+"यू आर एल: %1 \n"
+"विकृत जस्तो देखिन्छ ।\n"
+
+#: kiconediticon.cpp:87 kiconediticon.cpp:102
+#, kde-format
+msgid ""
+"There was an error loading:\n"
+"%1\n"
+msgstr ""
+"त्यहाँ एउटा त्रुटि लोड भइरहेको थियो:\n"
+"%1\n"
+
+#: kiconediticon.cpp:176
+msgid "Save Icon As"
+msgstr "यस रूपमा प्रतिमा बचत गर्नुहोस्"
+
+#: kiconediticon.cpp:211
+#, kde-format
+msgid "A file named \"%1\" already exists. Overwrite it?"
+msgstr "\"%1\" नामकरण गरिएको फाइल पहिल्यै अवस्थित छ । यसलाई अधिलेखन गर्नुहुन्छ?"
+
+#: kiconediticon.cpp:213
+msgid "Overwrite File?"
+msgstr "फाइल अधिलेखन गर्नुहुन्छ ?"
+
+#: kiconediticon.cpp:214
+msgid "&Overwrite"
+msgstr "अधिलेखन गर्नुहोस्"
+
+#: kiconediticon.cpp:277
+#, kde-format
+msgid ""
+"There was an error saving:\n"
+"%1\n"
+msgstr ""
+"बचत गर्दा त्यहाँ एउटा त्रुटि थियो:\n"
+"%1\n"
+
+#: kiconeditslots.cpp:204
+#, kde-format
+msgid "Print %1"
+msgstr "%1 मुद्रण गर्नुहोस्"
+
+#: kiconeditslots.cpp:430
+#, kde-format
+msgctxt "Status Position"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: kiconeditslots.cpp:436
+#, kde-format
+msgctxt "Status Size"
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: kiconeditslots.cpp:476
+msgid "modified"
+msgstr "परिमार्जित"
+
+#: kicongrid.cpp:100
+msgid ""
+"Icon draw grid\n"
+"\n"
+"The icon grid is the area where you draw the icons.\n"
+"You can zoom in and out using the magnifying glasses on the toolbar.\n"
+"(Tip: Hold the magnify button down for a few seconds to zoom to a predefined "
+"scale)"
+msgstr ""
+"प्रतिमा रेखाचित्र ग्रिड\n"
+"\n"
+"प्रतिमा ग्रिड त्यो क्षेत्र हो जहाँ तपाईँ प्रतिमाहरू कोर्नुहुन्छ ।\n"
+"तपाईँ उपकरणपट्टीमा अभिवर्धक ग्लासहरू प्रयोग गरेर जुम बढाउन वा घटाउन सक्नुहुन्छ ।\n"
+"(टिप: पूर्व परिभाषित स्केलमा जुम गर्न केही सेकेन्डका लागि तल अभिवर्धन बटनमस होल्ड गर्नुहोस्)"
+
+#: kicongrid.cpp:128
+msgid "width"
+msgstr "चौडाइ"
+
+#: kicongrid.cpp:133
+msgid "height"
+msgstr "उचाइ"
+
+#: kicongrid.cpp:137
+msgid ""
+"Rulers\n"
+"\n"
+"This is a visual representation of the current cursor position"
+msgstr ""
+"रूलर\n"
+"\n"
+"यो हालको कर्सर स्थितिको दृश्यात्मक प्रस्तुतिकरण हो"
+
+#: kicongrid.cpp:831
+msgid "Free Hand"
+msgstr "फ्रिह्यान्ड"
+
+#: kicongrid.cpp:1035
+msgid "There was an error loading a blank image.\n"
+msgstr "त्यहाँ खाली छवि लोड गर्दा एउटा त्रुटि भयो ।\n"
+
+#: kicongrid.cpp:1167
+msgid "All selected"
+msgstr "चयन गरिएका सबै"
+
+#: kicongrid.cpp:1178
+msgid "Cleared"
+msgstr "खाली गरिएको"
+
+#: kicongrid.cpp:1219
+msgid "Selected area cut"
+msgstr "चयन गरिएका क्षेत्र काट्नुहोस्"
+
+#: kicongrid.cpp:1223
+msgid "Selected area copied"
+msgstr "चयन गरिएका क्षेत्र प्रतिलिपि गरियो"
+
+#: kicongrid.cpp:1248
+msgid ""
+"The clipboard image is larger than the current image!\n"
+"Paste as new image?"
+msgstr ""
+"क्लिपबोर्ड छवि हालको छवि भन्दा ठूलो छ!\n"
+"नयाँ छविको रूपमा टाँस्नुहुन्छ?"
+
+#: kicongrid.cpp:1249
+#, fuzzy
+msgid "Paste"
+msgstr "बाटो:"
+
+#: kicongrid.cpp:1249
+msgid "Do Not Paste"
+msgstr "नटाँस्नुहोस्"
+
+#: kicongrid.cpp:1368 kicongrid.cpp:1402
+msgid "Done pasting"
+msgstr "टाँस्ने काम समाप्त"
+
+#: kicongrid.cpp:1373 kicongrid.cpp:1408
+#, fuzzy
+msgid "Invalid pixmap data in clipboard.\n"
+msgstr "क्लिपबोर्डमा अवैध पिक्सम्याप डेटा!\n"
+
+#: kicongrid.cpp:1915
+msgid "Drawn Array"
+msgstr "कोरिएको एरे"
+
+#: knew.cpp:49
+msgid "Standard File"
+msgstr "मानक फाइल"
+
+#: knew.cpp:53
+msgid "Source File"
+msgstr "स्रोत फाइल"
+
+#: knew.cpp:57
+msgid "Compressed File"
+msgstr "सङ्कुचन गरिएको फाइल"
+
+#: knew.cpp:61
+msgid "Standard Folder"
+msgstr "मानक फोल्डर"
+
+#: knew.cpp:65
+msgid "Standard Package"
+msgstr "मानक प्याकेज"
+
+#: knew.cpp:69
+msgid "Mini Folder"
+msgstr "मिनी फोल्डर"
+
+#: knew.cpp:73
+msgid "Mini Package"
+msgstr "मिनी प्याकेज"
+
+#: knew.cpp:172
+msgid "Create from scratch"
+msgstr "स्क्र्याचबाट सिर्जना गर्नुहोस्"
+
+#: knew.cpp:176
+msgid "Create from template"
+msgstr "टेम्प्लेटबाट सिर्जना गर्नुहोस्"
+
+#: knew.cpp:235
+msgid "Create New Icon"
+msgstr "नयाँ प्रतिमा सिर्जना गर्नुहोस्"
+
+#: knew.cpp:256
+msgid "Select Icon Type"
+msgstr "प्रतिमा प्रकार चयन गर्नुहोस्"
+
+#: knew.cpp:257 knew.cpp:297
+msgid "Create From Scratch"
+msgstr "स्क्र्याचबाट सिर्जना गर्नुहोस्"
+
+#: knew.cpp:303
+msgid "Create From Template"
+msgstr "टेम्प्लेटबाट सिर्जना गर्नुहोस्"
+
+#: kresize.cpp:35
+msgid "Size"
+msgstr "साइज"
+
+#: kresize.cpp:70
+msgid "Select Size"
+msgstr "साइज चयन गर्नुहोस्"
+
+#: main.cpp:35
+msgid "KDE Icon Editor"
+msgstr "केडीई प्रतिमा सम्पादक"
+
+#: main.cpp:39
+msgid "KIconEdit"
+msgstr "केडीई प्रतिमा सम्पादन"
+
+#: main.cpp:41
+msgid "(c) 1998, Thomas Tanghus"
+msgstr ""
+
+#: main.cpp:43
+msgid "Thomas Tanghus"
+msgstr ""
+
+#: main.cpp:44
+msgid "John Califf"
+msgstr ""
+
+#: main.cpp:45
+msgid "Laurent Montel"
+msgstr ""
+
+#: main.cpp:46
+msgid "Aaron J. Seigo"
+msgstr ""
+
+#: main.cpp:47
+msgid "Nadeem Hasan"
+msgstr ""
+
+#: main.cpp:47
+msgid ""
+"Rewrote UI to use XMLGUI\n"
+"Lots of fixes and cleanup"
+msgstr ""
+
+#: main.cpp:49
+#, fuzzy
+#| msgid "Mini Package"
+msgid "Adrian Page"
+msgstr "मिनी प्याकेज"
+
+#: main.cpp:49
+msgid "Bug fixes and GUI tidy up"
+msgstr "बग निश्चित गर्छ र जी यू आई मिलाउछ"
+
+#: main.cpp:54
+msgid "Icon file(s) to open"
+msgstr "खोल्नुका लागि प्रतिमा फाइल(हरू)"
+
+#: palettetoolbar.cpp:53
+msgid ""
+"Preview\n"
+"\n"
+"This is a 1:1 preview of the current icon"
+msgstr ""
+"पूर्वावलोकन\n"
+"\n"
+"यो हालको प्रतिमाको १:१ पूर्वावलोकन हो"
+
+#: palettetoolbar.cpp:61
+msgid ""
+"Current color\n"
+"\n"
+"This is the currently selected color"
+msgstr ""
+"हालको रङ\n"
+"\n"
+"यो हालै चयन गरिएको रङ हो"
+
+#: palettetoolbar.cpp:66
+msgid "System colors:"
+msgstr "प्रणाली रङ:"
+
+#: palettetoolbar.cpp:69
+msgid ""
+"System colors\n"
+"\n"
+"Here you can select colors from the KDE icon palette"
+msgstr ""
+"प्रणाली रङ\n"
+"\n"
+"यहाँ तपाईँ केडीई प्रतिमा रङदानीबाट रङहरू चयन गर्नु सक्नुहुन्छ"
+
+#: palettetoolbar.cpp:79
+msgid "Custom colors:"
+msgstr "अनुकूल रङ:"
+
+#: palettetoolbar.cpp:82
+msgid ""
+"Custom colors\n"
+"\n"
+"Here you can build a palette of custom colors.\n"
+"Double-click on a box to edit the color"
+msgstr ""
+"अनुकूल रङ\n"
+"\n"
+"यहाँ तपाईँ अनुकूल रङको रङदानी निर्माण गर्न सक्नुहुन्छ ।\n"
+"रङ सम्पादन गर्न बाकसमा डबल क्लिक गर्नुहोस्"
+
+#. i18n: file: kiconeditui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:7
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6
+#, fuzzy
+msgid "&Edit"
+msgstr "सम्पादन..."
+
+#. i18n: file: kiconeditui.rc:13
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:9
+msgid "&Tools"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:30
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:12
+msgid "&Settings"
+msgstr ""
+
+#. i18n: file: kiconeditui.rc:35
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:15
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "रङदानी उपकरणपट्टी"
+
+#. i18n: file: kiconeditui.rc:45
+#. i18n: ectx: ToolBar (toolsToolBar)
+#: rc.cpp:18
+msgid "Tools Toolbar"
+msgstr "उपकरणको उपकरणपट्टी"
+
+#. i18n: file: kiconeditui.rc:63
+#. i18n: ectx: ToolBar (paletteToolBar)
+#: rc.cpp:21
+msgid "Pallette Toolbar"
+msgstr "रङदानी उपकरणपट्टी"
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्यामकृष्ण बल"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Shyam krishna bal<shyamkrishna_bal@yahoo.com>"
+
+#: kicongrid.h:62
+msgid "Drawed Something"
+msgstr ""
